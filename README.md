@@ -24,3 +24,18 @@ I am at Nanyang Poly S540
 
 ## Block Diagram
 ```mermaid
+graph TD
+
+A[Raspberi Pi] --> B[Router]
+B--> C[TV]
+D[Sensor] --> A
+A-->D
+
+
+```
+
+```mermaid 
+graph LR
+
+A--> B
+```
