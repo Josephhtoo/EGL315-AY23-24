@@ -15,3 +15,12 @@ Joseph Htoo
 ```
 I am at Nanyang Poly S540
 ```
+
+`sudo rasppi-conf`
+
+## Adding Picture
+
+![Alt text](images/Rafiki-in-Lion-King-Characters-Study.png)
+
+## Block Diagram
+```mermaid
