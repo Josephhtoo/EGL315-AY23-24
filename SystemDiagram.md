@@ -11,3 +11,9 @@ Our concept is based on the game Auto Chess where players place characters on a 
 ## Secondary Concept
 Holographic projection of each character with their background information on the side
 ![Alt text](images/photo_2023-04-26_20-56-35.jpg)
+
+
+
+
+
+
