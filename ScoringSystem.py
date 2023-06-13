@@ -11,7 +11,7 @@ def two_pressed():
 def three_pressed():
     print("Button Three is pressed")
 
-# mai
+# main
 main = Tk()
 main.title("Button Test")
 
