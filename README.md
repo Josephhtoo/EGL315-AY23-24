@@ -1,4 +1,11 @@
 # EGL315-AY23-24
+## **Background Music** 
+
+[![Watch the video](Assets/SoundTrack.jpg)](https://www.youtube.com/watch?v=iy6YDd5iHB4)
+
+This is summoner rift theme references from League of legends and is played before the fighting
+phase of our two player game
+
 
 ## Software Required:<br>
 PB 8.6.1<br>
