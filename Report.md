@@ -64,6 +64,11 @@ Other key technologies used would be the passive speakers in the audio aspect, a
 ## **Are there similar technologies that can be considered to achieve similar effects? How do your original proposed technologies/concepts be the most suitable for a given application?**
 
 **Projection mapping** can achieve similar results however it can be tough to adjust and for this specific instance of wanting to achieve a 3d like image, it disables us to do that as it will only project out a 2d image onto a surface which is not what we want. However, Pepper’s Ghost utilises reflections to appear as if the real-world object is interacting with the virtual asset, therefore, giving a more immersive illusion for the audience. 
+## **Architecture Design**
+
+### **Project System Block / Signal Line Diagram**
+
+Video Diagram
 
 
 
