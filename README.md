@@ -31,11 +31,25 @@ LAN cable x 4<br>
 ## Video Setup<hr>
 
 ## Lighting Setup<hr>
-(Assets/Laptop_IP.jpg)
-(Assets/2PortNode_IP.jpg)
+![LaptopIP](Assets/Laptop_IP.jpg)
+![2PortNodeIP](Assets/2PortNode_IP.jpg)
 Ensure that the laptop(the one controlling the lights) and the 2 port node is on the same subnet address
+<br>
+
+![2PortNodeIP](Assets/2PortNode_connection.jpg)
+Make sure to your 2 port node on your grandMA3 is highlighted green meaning the 2 port node is connected to grandMA3 on your laptop<br>
+Steps to connect 2port node:<br>
+1)Under MA - Net Interface select your Ethernet port 
+2)Select the onPC-2Port-1 box 
+3)Click create
+4)Click invite station
+
+
+![Workspace](Assets/Workspace.jpg)
+Ensure you are able to see all the essentials windows on your grandMA3 workspace
 
 ## Audio Setup<hr>
+
 
 
 
