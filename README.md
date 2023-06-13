@@ -93,6 +93,30 @@ Elseif cardString1.IsMatch("01077584cd") {
 ```
 ![Capture](Assets/RFID%20reset.PNG)
 <br>Write down the code when RFID card leaves the RFID reader<br><br>
+```
+ResetDevice(3,2)ResetDevice(3,3)
+ResetDevice(3,4)ResetDevice(3,5)
+ResetDevice(3,29)ResetDevice(3,30)
+PhidgetRFID2IsReady = falsePhidgetRFID5IsReady = false
+```
+Code for Dice Roll
+```
+if PhidgetRFID2IsReady = true AND PhidgetRFID5IsReady=true { DeviceSetParam(3,29,"RGB Key|Mix",255)
+ DeviceSetParam(3,30,"RGB Key|Mix",255) DeviceSetParam(3,29,"X Pos",-4)
+ DeviceSetParam(3,30,"X Pos",4.9) DeviceSetParam(3,29,"Y Pos",0)
+ DeviceSetParam(3,30,"Y Pos",0) DeviceSetParam(3,29,"Y Angle",180)
+ DeviceSetParam(3,30,"Y Angle",180) DeviceSetParam(3,29,"Z Scale",0.490)
+ DeviceSetParam(3,30,"Z Scale",0.490) DeviceSetParam(3,30,"Y Scale",0.490)
+ DeviceSetParam(3,29,"Y Scale",0.490) DeviceSetParam(3,29,"X Scale",0.490)
+ DeviceSetParam(3,30,"X Scale",0.490) WDWait(0.2)
+ DeviceSetMedia(3,29,1,7) DeviceSetMedia(3,30,1,7)
+ DeviceSetParam(3,29,"Playback Transport","Play") DeviceSetParam(3,30,"Playback Transport","Play")  
+ WDWait(3.0) DeviceSetParam(3,29,"Playback Transport","Pause") 
+ DeviceSetParam(3,30,"Playback Transport","Pause")  
+
+}
+```
+
 ![Capture](Assets/PBServer.PNG)
 <br>Turn on the server that is connected to the laptop by LAN, and connect VNC by using Server Management<br><br>
 ![Capture](Assets/sRVRPB.png)
