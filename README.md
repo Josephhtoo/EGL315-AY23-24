@@ -29,9 +29,28 @@ HDMI cable x 1<br>
 LAN cable x 4<br>
 
 ## Video Setup<hr>
+![Capture](Assets/Capture.PNG)
+<br>First, check that the connection of the <br><br>
+![Capture](Assets/IP.PNG)
+<br>Search for the folder where all the media files sent from NP students are saved<br><br>
+![Capture](Assets/Media.PNG)
+<br>Once found the folder, create a folder named 'media' in Pandora Box bring all the files into media folder<br><br>
+![Capture](Assets/WDDomain.PNG)
+<br>Input the laptop IP Address to configure correctly for Widget Designer<br><br>
+![Capture](Assets/RFID%20reader.PNG)
+<br>Write down the code when RFID card touches the RFID reader<br><br>
+![Capture](Assets/RFID%20reset.PNG)
+<br>Write down the code when RFID card leaves the RFID reader<br><br>
+![Capture](Assets/PBServer.PNG)
+<br>Turn on the server that is connected to the laptop by LAN, and connect VNC by using Server Management<br><br>
+![Capture](Assets/sRVRPB.png)
+<br>Press Pandoras Box icon to display the screen from Pandoras Box in laptop to server, and server to TV so it can be projected<br><br>
+![Capture](Assets/photo_6071217224342943983_y.jpg)
+<br>End result<br><br>
 
 ## Lighting Setup<hr>
-![LaptopIP](Assets/Laptop_IP.jpg)
+![LaptopIP](Assets/LaptopIP.jpg)
+
 ![2PortNodeIP](Assets/2PortNode_IP.jpg)
 Ensure that the laptop(the one controlling the lights) and the 2 port node is on the same subnet address
 <br>
@@ -44,11 +63,12 @@ Steps to connect 2port node:<br>
 3)Click create
 4)Click invite station
 
-
 ![Workspace](Assets/Workspace.jpg)
 Ensure you are able to see all the essentials windows on your grandMA3 workspace
 
 ## Audio Setup<hr>
+![Workspace](Assets/Audio_code.jpg)
+Type this code into your start button under to play music
 
 
 
