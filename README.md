@@ -1,4 +1,11 @@
 # EGL315-AY23-24
+## **Background Music** 
+
+[![Watch the video](Assets/SoundTrack.jpg)](https://www.youtube.com/watch?v=iy6YDd5iHB4)
+
+This is summoner rift theme references from League of legends and is played before the fighting
+phase of our two player game
+
 
 ## Software Required:<br>
 PB 8.6.1<br>
@@ -31,7 +38,7 @@ LAN cable x 4<br>
 ## Video Setup<hr>
 
 ## Lighting Setup<hr>
-![LaptopIP](Assets/Laptop_IP.jpg)
+![LaptopIP](Assets/LaptopIP.jpg)
 ![2PortNodeIP](Assets/2PortNode_IP.jpg)
 Ensure that the laptop(the one controlling the lights) and the 2 port node is on the same subnet address
 <br>

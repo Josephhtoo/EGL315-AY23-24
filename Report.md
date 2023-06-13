@@ -20,6 +20,7 @@ The pepper ghost technique is an illusion which is achieved using a transparent 
 Specular reflection is the reason behind the pepper's ghost, it's achieved when the angle of incidence of the light ray is travelling to a smooth and polished surface and it gets reflected into our eyes.
 ## Pepper Ghost 
 ![Alt text](Assets/pepper_Ghost.jpg)
+
 The original Pepper’s Ghost optical illusion involves placing a large piece of glass at an angle between a brightly lit “stage” room into which viewers look straight ahead and a hidden room. The glass reflects the hidden room, kept dark, that holds a “ghostly” scene. When the lights in the hidden room are slightly raised to illuminate the scene, the lights in the stage room are slightly dimmed, and the apparition appears to the audience.   
 ## Specular Reflection Phenomenon
 ![Alt text](Assets/Specular_Reflection.jpg)
@@ -68,7 +69,36 @@ Other key technologies used would be the passive speakers in the audio aspect, a
 
 ### **Project System Block / Signal Line Diagram**
 
-Video Diagram
+<u>Video Diagram</u>
+![Alt text](Assets/VideoD.jpg)
+
+<u>Audio Diagram</u>
+![Alt text](Assets/AudioD.jpg)
+
+<u>Lighting Diagram</u>
+![Alt text](Assets/LightingD.jpg)
+
+<u>Control Diagram</u>
+![Alt text](Assets/ControlD.jpg)
+
+### **Floor Plan**
+![Alt text](Assets/FP1.jpg)
+![Alt text](Assets/FP2.jpg)
+
+## **Logistic Rider**
+
+### **Proposed Equipment**
+
+| #           | Equipment                  |  Qty  |          Description          |     
+|    :---:    | :---                       | :---: |         -----------           | 
+| 1           | Projector Epson            | 1     | To Project Pepper Ghost image |
+| 2           | Server - HP workstation   | 1     | Run software and animate      |
+| 3           | Projector Epson            | 1     | To Project Pepper Ghost image |
+| 4           | Text                       | 1     | Run software and animate      |
+| 5           | Projector Epson            | 1     | To Project Pepper Ghost image |
+| 6           | Text                       | 1     | Run software and animate      |
+| 7           | Projector Epson            | 1     | To Project Pepper Ghost image |
+| 8            | Text                      | 1     | Run software and animate      |
 
 
 
