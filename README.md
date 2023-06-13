@@ -23,17 +23,20 @@ DMX splitter (MDRT DMX512) x 2<br>
 USB type C to female LAN adapter x 2<br>
 
 ## Cables Required:<br>
-Video<hr>
-HDMI cable x 1
+HDMI cable x 1<br>
+5-pin female to 5-pin male XLR cable x 6<br>
+3.5mm to 4 bear end cable x 1<br>
+LAN cable x 4<br>
 
-Lighting<hr>
-5-pin female to 5-pin male XLR cable x 6
+## Video Setup<hr>
 
-Audio<hr>
-3.5mm to 4 bear end cable x 1
+## Lighting Setup<hr>
+(Assets/Laptop_IP.jpg)
+(Assets/2PortNode_IP.jpg)
+Ensure that the laptop(the one controlling the lights) and the 2 port node is on the same subnet address
 
-Network<hr>
-LAN cable x 4 
+## Audio Setup<hr>
+
 
 
 
