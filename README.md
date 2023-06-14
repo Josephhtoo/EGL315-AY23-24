@@ -1,10 +1,4 @@
 # EGL315-AY23-24
-## **Background Music** 
-
-[![Watch the video](Assets/SoundTrack.jpg)](https://www.youtube.com/watch?v=iy6YDd5iHB4)
-
-This is summoner rift theme references from League of legends and is played before the fighting
-phase of our two player game
 
 
 ## Software Required:<br>
@@ -152,6 +146,45 @@ Ensure you are able to see all the essentials windows on your grandMA3 workspace
 ## Audio Setup<hr>
 ![Workspace](Assets/Audio_code.jpg)
 Type this code into your start button under to play music
+
+## **Background Music** 
+
+[![Watch the video](Assets/SoundTrack.jpg)](https://www.youtube.com/watch?v=iy6YDd5iHB4)
+
+This is summoner rift theme references from League of legends and is played before the fightingphase of our two player game
+
+## **Background** 
+![VSbackground](Assets/background.jpg)
+
+## **Dagger Edits** 
+
+[![Watch the video](Assets/thumbnails/AttackDagger.jpg)](https://www.youtube.com/watch?v=DiMfWIs8LUc) 
+
+A short attacking animation video of daggerman 
+
+[![Watch the video](Assets/thumbnails/DaggerCombV1.jpg)](https://youtu.be/xPTUq8ydhzo)
+
+A full death animation video of daggerman 
+
+[![Watch the video](Assets/thumbnails/DaggerCombVic.jpg)](https://youtu.be/zA-caRkYX9w)
+
+A full victory animation video of daggerman 
+
+[![Watch the video](Assets/thumbnails/DaggerDeathv1.jpg)](https://youtu.be/shDJ2hvP4XM)
+
+A death animation video of daggerman 
+
+[![Watch the video](Assets/thumbnails/DaggerIdleV1.jpg)](https://youtu.be/bo7_ZhQ19j4)
+
+An idle animation video of daggerman  
+
+[![Watch the video](Assets/thumbnails/DaggerVP.jpg)](https://youtu.be/eGG7mUD-HII)
+
+A spawn animation video of daggerman
+
+[![Watch the video](Assets/thumbnails/DaggerVP.jpg)](https://youtu.be/eLfmyesCC1E)
+
+A walking animation video of daggerman
 
 
 

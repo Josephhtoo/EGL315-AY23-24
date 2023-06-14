@@ -89,16 +89,16 @@ Other key technologies used would be the passive speakers in the audio aspect, a
 
 ### **Proposed Equipment**
 
-| #           | Equipment                  |  Qty  |          Description          |     
-|    :---:    | :---                       | :---: |         -----------           | 
-| 1           | Projector Epson            | 1     | To Project Pepper Ghost image |
-| 2           | Server - HP workstation   | 1     | Run software and animate      |
-| 3           | Projector Epson            | 1     | To Project Pepper Ghost image |
-| 4           | Text                       | 1     | Run software and animate      |
-| 5           | Projector Epson            | 1     | To Project Pepper Ghost image |
-| 6           | Text                       | 1     | Run software and animate      |
-| 7           | Projector Epson            | 1     | To Project Pepper Ghost image |
-| 8            | Text                      | 1     | Run software and animate      |
+| #           | Equipment                          |  Qty  |          Description                   |     
+|    :---:    | :---                               | :---: |         -----------                    | 
+| 1           | TV monitor (Samsung UE46A )        | 1     | To Project Pepper Ghost image          |
+| 2           | Server - HP workstation            | 1     | Run software and animate               |
+| 3           | Passive speakers (JBL css 1st)     | 4     | To simullate feeling of surround sound |
+| 4           | 2-channel Amplifier -Kramer 914    | 2     | Used to control 4 passive speakers     |
+| 5           | Laptop - HP Zbook 15 G5            | 1     | Control and tune audio                 |
+| 6           | Lighting console - Avolites Quartz | 1     | Control and patch lights               |
+| 7           | Projector Epson                    | 1     | To Project Pepper Ghost image          |
+| 8           | Text                               | 1     | Run software and animate               |
 
 
 
