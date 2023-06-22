@@ -29,7 +29,17 @@ HDMI cable x 1<br>
 3.5mm to 4 bear end cable x 1<br>
 LAN cable x 4<br>
 
-## Video Setup<hr>
+## Video & Control Setup<hr>
+```mermaid
+
+graph LR
+A[Laptop<br>HP Zbook 15 G5] --> B[USB HUB<br> ATZ UH3102] --> C[RFID Reader 1<br>]
+B[USB HUB<br> ATZ UH3102] --> D[RFID Reader 2<br>]
+
+F[12v] --> B
+```
+
+
 ![Capture](Assets/Capture.PNG)
 <br>First, check that the connection of the <br><br>
 ![Capture](Assets/IP.PNG)
