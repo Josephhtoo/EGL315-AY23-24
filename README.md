@@ -149,7 +149,7 @@ Type this code into your start button under to play music
 
 ## **Background Music** 
 
-[![Watch the video](Assets/SoundTrack.jpg)](https://www.youtube.com/watch?v=iy6YDd5iHB4)
+[![Watch the video](Assets/SoundTrack.png)](https://www.youtube.com/watch?v=iy6YDd5iHB4)
 
 This is summoner rift theme references from League of legends and is played before the fightingphase of our two player game
 
