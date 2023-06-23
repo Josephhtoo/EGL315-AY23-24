@@ -30,13 +30,25 @@ HDMI cable x 1<br>
 LAN cable x 4<br>
 
 ## Video & Control Setup<hr>
+
+![Video System Diagram](Assets/VideoD.jpg)
+![Control System Diagram](Assets/ControlD.jpg)
+
 ```mermaid
+graph 
+    subgraph Video Diagram
+        A[Laptop<br>HP Zbook 15 G5] <-- Cat5/6 --> B[Network Switch<br>Netgear FS108] <--Cat5/6--> C[Media Server<br>HP Workstation ]<--HDMI-->D[TV Moniitor<br>Samsung UE46A] 
+    F[12v] --> B
+    end
+```
+```mermaid 
+flowchart 
+    subgraph Control Diagram
+        A[Laptop<br>HP Zbook 15 G5] <--> B[USB HUB<br> ATZ UH3102] <--> C[RFID Reader 1<br>]
+        B[USB HUB<br> ATZ UH3102] <--> D[RFID Reader 2<br>]
+    F[12v] --> B
+    end
 
-graph LR
-A[Laptop<br>HP Zbook 15 G5] --> B[USB HUB<br> ATZ UH3102] --> C[RFID Reader 1<br>]
-B[USB HUB<br> ATZ UH3102] --> D[RFID Reader 2<br>]
-
-F[12v] --> B
 ```
 
 
