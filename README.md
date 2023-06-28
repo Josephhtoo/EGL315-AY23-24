@@ -1,8 +1,13 @@
 # EGL315-AY23-24
 
 
+
 ## Software Required:<br>
-PB 8.6.1<br>
+sdf ==Pandora Box(PB)== sdf
+
+**WD Widget Designer**
+
+PB 8.6.1<br> 
 PB_Server Management 1.5.0<br>
 WD Unlimited 6.5.6<br>
 GrandMA on PC 1.9.2.2<br>
@@ -50,8 +55,6 @@ flowchart
     end
 
 ```
-
-
 ![Capture](Assets/Capture.PNG)
 <br>First, check that the connection of the <br><br>
 ![Capture](Assets/IP.PNG)
@@ -80,6 +83,10 @@ If cardString1.IsMatch("010775a7cc") {
  PhidgetRFID5IsReady = True 
  playRollDiceVideo() 
 } 
+```
+The codes here is to allow the spawn of the different characters when the Radio Frequency Idenficaiton RFID reader detects the card
+```
+
 Elseif cardString1.IsMatch("010775a07a") { 
  DeviceSetParam(3,1,"Opacity",0) DeviceSetParam(3,3,"X Pos",2) 
  DeviceSetParam(3,3,"Z Scale",0.750) DeviceSetParam(3,3,"Y Scale",0.750) 
@@ -91,7 +98,9 @@ Elseif cardString1.IsMatch("010775a07a") {
  DeviceSetParam(3,3,"Playback Transport","Pause")  DeviceSetParam(3,2,"Playback Transport","Stop")  
  DeviceSetParam(3,4,"Playback Transport","Stop")  DeviceSetParam(3,5,"Playback Transport","Stop")  
 } 
- 
+```
+The code here is to 
+```
 Elseif cardString1.IsMatch("01077575bb") { DeviceSetParam(3,1,"Opacity",0) 
  DeviceSetParam(3,4,"X Pos",2) DeviceSetParam(3,4,"Z Scale",0.750) 
  DeviceSetParam(3,4,"Y Scale",0.750) DeviceSetParam(3,4,"X Scale",0.750) 
@@ -114,6 +123,8 @@ Elseif cardString1.IsMatch("01077584cd") {
  DeviceSetParam(3,3,"Playback Transport","Stop")  DeviceSetParam(3,4,"Playback Transport","Stop")  
 }
 ```
+The code here is to 
+
 ![Capture](Assets/RFID%20reset.PNG)
 <br>Write down the code when RFID card leaves the RFID reader<br><br>
 ```
@@ -148,8 +159,10 @@ if PhidgetRFID2IsReady = true AND PhidgetRFID5IsReady=true { DeviceSetParam(3,29
 <br>End result<br><br>
 
 ## Lighting Setup<hr>
-![LaptopIP](Assets/LaptopIP.jpg)
+![Lighting](Assets/LightingD.jpg)
 
+
+![LaptopIP](Assets/LaptopIP.jpg)
 ![2PortNodeIP](Assets/2PortNode_IP.jpg)
 Ensure that the laptop(the one controlling the lights) and the 2 port node is on the same subnet address
 <br>
@@ -166,6 +179,8 @@ Steps to connect 2port node:<br>
 Ensure you are able to see all the essentials windows on your grandMA3 workspace
 
 ## Audio Setup<hr>
+![Capture](Assets/AudioD.jpg)
+
 ![Workspace](Assets/Audio_code.jpg)
 Type this code into your start button under to play music
 
