@@ -1,9 +1,31 @@
 # EGL315-AY23-24
+## Landscape
+![Capture](Assets/Landscape.jpg)
+## Media Assets
+![Capture](Assets/Laptop.jpg)
+**Description:** HP laptop <br>
+**Model:** Zbook Firefly 15 G7 
+**Manufacturer:** Hewlett Packard <br>
+**Part Number:** 10J85AV<br>
+![Capture](Assets/DMX.jpg)
+**Description:** Wireless-DMX <br>
+**Model:** Micro F-1 Lite G5 <br>
+**Manufacturer:** ProLight Concept, Wireless Solution <br>
+**Part Number:** A40006G5<br>
 
+![Capture](Assets/LightingSystem.jpg)
+**Description:** LSC lighting DMX Splitter <br>
+**Model:** MDRT <br>
+**Manufacturer:** LSC <br>
+**Part Number:** <br>
+![Capture](Assets/RFIDsensor.jpg)
+![Capture](Assets/speaker.jpg)
+![Capture](Assets/USBHUB.jpg)
+![Capture](Assets/Switch.jpg)
+![Capture](Assets/TV.jpg)
 
-
-## Software Required:<br>
-sdf ==Pandora Box(PB)== sdf
+## Software Required:
+Pandora Box(PB) 
 
 **WD Widget Designer**
 
@@ -39,24 +61,10 @@ LAN cable x 4<br>
 ![Video System Diagram](Assets/VideoD.jpg)
 ![Control System Diagram](Assets/ControlD.jpg)
 
-```mermaid
-graph 
-    subgraph Video Diagram
-        A[Laptop<br>HP Zbook 15 G5] <-- Cat5/6 --> B[Network Switch<br>Netgear FS108] <--Cat5/6--> C[Media Server<br>HP Workstation ]<--HDMI-->D[TV Moniitor<br>Samsung UE46A] 
-    F[12v] --> B
-    end
-```
-```mermaid 
-flowchart 
-    subgraph Control Diagram
-        A[Laptop<br>HP Zbook 15 G5] <--> B[USB HUB<br> ATZ UH3102] <--> C[RFID Reader 1<br>]
-        B[USB HUB<br> ATZ UH3102] <--> D[RFID Reader 2<br>]
-    F[12v] --> B
-    end
+The illustrations below shows the steps to establish the connection of our local laptop to the media server using Christie Pandora Box control interface Widget Designer.
 
-```
 ![Capture](Assets/Capture.PNG)
-<br>First, check that the connection of the <br><br>
+<br>First, check that the connection of the laptop is successful<br><br>
 ![Capture](Assets/IP.PNG)
 <br>Search for the folder where all the media files sent from NP students are saved<br><br>
 ![Capture](Assets/Media.PNG)
@@ -83,9 +91,6 @@ If cardString1.IsMatch("010775a7cc") {
  PhidgetRFID5IsReady = True 
  playRollDiceVideo() 
 } 
-```
-The codes here is to allow the spawn of the different characters when the Radio Frequency Idenficaiton RFID reader detects the card
-```
 
 Elseif cardString1.IsMatch("010775a07a") { 
  DeviceSetParam(3,1,"Opacity",0) DeviceSetParam(3,3,"X Pos",2) 
@@ -98,9 +103,6 @@ Elseif cardString1.IsMatch("010775a07a") {
  DeviceSetParam(3,3,"Playback Transport","Pause")  DeviceSetParam(3,2,"Playback Transport","Stop")  
  DeviceSetParam(3,4,"Playback Transport","Stop")  DeviceSetParam(3,5,"Playback Transport","Stop")  
 } 
-```
-The code here is to 
-```
 Elseif cardString1.IsMatch("01077575bb") { DeviceSetParam(3,1,"Opacity",0) 
  DeviceSetParam(3,4,"X Pos",2) DeviceSetParam(3,4,"Z Scale",0.750) 
  DeviceSetParam(3,4,"Y Scale",0.750) DeviceSetParam(3,4,"X Scale",0.750) 
@@ -123,7 +125,7 @@ Elseif cardString1.IsMatch("01077584cd") {
  DeviceSetParam(3,3,"Playback Transport","Stop")  DeviceSetParam(3,4,"Playback Transport","Stop")  
 }
 ```
-The code here is to 
+This chunk of code which is to allow the spawning of each different character when the **Radio Frequency Identificaiton (RFID)** reader detects the card.
 
 ![Capture](Assets/RFID%20reset.PNG)
 <br>Write down the code when RFID card leaves the RFID reader<br><br>
@@ -155,7 +157,7 @@ if PhidgetRFID2IsReady = true AND PhidgetRFID5IsReady=true { DeviceSetParam(3,29
 <br>Turn on the server that is connected to the laptop by LAN, and connect VNC by using Server Management<br><br>
 ![Capture](Assets/sRVRPB.png)
 <br>Press Pandoras Box icon to display the screen from Pandoras Box in laptop to server, and server to TV so it can be projected<br><br>
-![Capture](Assets/photo_6071217224342943983_y.jpg)
+![Capture](Assets/POC.jpg)
 <br>End result<br><br>
 
 ## Lighting Setup<hr>
