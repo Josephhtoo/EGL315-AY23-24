@@ -3,7 +3,7 @@
 
 
 ## Software Required:<br>
-sdf ==Pandora Box(PB)== sdf
+Pandora Box(PB)
 
 **WD Widget Designer**
 
@@ -140,7 +140,7 @@ if PhidgetRFID2IsReady = true AND PhidgetRFID5IsReady=true { DeviceSetParam(3,29
 <br>Turn on the server that is connected to the laptop by LAN, and connect VNC by using Server Management<br><br>
 ![Capture](Assets/sRVRPB.png)
 <br>Press Pandoras Box icon to display the screen from Pandoras Box in laptop to server, and server to TV so it can be projected<br><br>
-![Capture](Assets/photo_6071217224342943983_y.jpg)
+![Capture](Assets/POC.jpg)
 <br>End result<br><br>
 
 ## Lighting Setup<hr>
