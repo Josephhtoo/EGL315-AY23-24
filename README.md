@@ -17,9 +17,13 @@
 **Description:** LSC lighting DMX Splitter <br>
 **Model:** MDRT <br>
 **Manufacturer:** LSC <br>
-**Part Number:** <br>
+**Part Number:** 42071 <br>
 ![Capture](Assets/RFIDSensor.jpg)
 ![Capture](Assets/Speaker.jpg)
+**Description:** JBL Professional Speaker  <br>
+**Model:** Control 1 Pro <br>
+**Manufacturer:** JBL  <br>
+**Part Number:** C1PROAM <br>
 ![Capture](Assets/USBHUB.jpg)
 ![Capture](Assets/Switch.jpg)
 ![Capture](Assets/TV.jpg)
