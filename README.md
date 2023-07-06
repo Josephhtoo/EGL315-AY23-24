@@ -18,8 +18,8 @@
 **Model:** MDRT <br>
 **Manufacturer:** LSC <br>
 **Part Number:** <br>
-![Capture](Assets/RFIDsensor.jpg)
-![Capture](Assets/speaker.jpg)
+![Capture](Assets/RFIDSensor.jpg)
+![Capture](Assets/Speaker.jpg)
 ![Capture](Assets/USBHUB.jpg)
 ![Capture](Assets/Switch.jpg)
 ![Capture](Assets/TV.jpg)
