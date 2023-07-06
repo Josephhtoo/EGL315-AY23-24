@@ -31,7 +31,6 @@ Pandora Box(PB)
 ## Software Required:<br>
 Pandora Box(PB)
 
-
 **WD Widget Designer**
 
 PB 8.6.1<br> 
