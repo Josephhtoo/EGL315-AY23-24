@@ -4,7 +4,7 @@
 ## Media Assets
 ![Capture](Assets/Laptop.jpg)
 **Description:** HP laptop <br>
-**Model:** Zbook Firefly 15 G7 
+**Model:** Zbook Firefly 15 G7 <br>
 **Manufacturer:** Hewlett Packard <br>
 **Part Number:** 10J85AV<br>
 ![Capture](Assets/DMX.jpg)
@@ -13,6 +13,7 @@
 **Manufacturer:** ProLight Concept, Wireless Solution <br>
 **Part Number:** A40006G5<br>
 
+![Capture](Assets/Lite-Puter.jpg)
 ![Capture](Assets/LightingSystem.jpg)
 **Description:** LSC lighting DMX Splitter <br>
 **Model:** MDRT <br>
