@@ -9,6 +9,7 @@ GrandMA on PC 1.9.2.2<br>
 ## Hardware Required:<br>
 Pandora Box license dongle x 2<br>
 Passive speaker (JBL css 1st) x 2<br>
+Audio Power Amplifier (Kramer 914 100w)<br>
 grandMA3 console(Insert Model Number) x 1<br>
 Laptop (HP ZBook 15 G5) x 1<br>
 TV monitor (Samsung UE46A ) x 1<br>
