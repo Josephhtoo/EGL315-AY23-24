@@ -1,16 +1,12 @@
-# EGL315-AY23/24
-## Core Concept 
-Our concept is based on the game Auto Chess where players place characters on a grid-shaped battlefield during a preparation phase, who then fight the opposing team's characters without any further direct input from the player.However the twist in our project would be the animated models will be holographic on the playfield.
+# Project Overview
+## Game Concept 
+The core concept of our game is to have 6 unique characters battle each other in a 1v1 match. The winner of the match is determind through a Random Number Generator(RNG) and whoever gets the higher number between the 2 players wins the game.
 
-**Inspirations**
+## Core Technology
+THe core technology we are using to for this project are RFID readers. What the RFID reader does is that when it detects the RFID card, it sends data related to that unique card to the server to display a specific video.
 
-![Alt text](Assets/Autochess.png)
-**Idea**
-
-![Alt text](Assets/photo_2023-04-26_17-10-58.jpg)
-## Secondary Concept
-Holographic projection of each character with their background information on the side
-![Alt text](Assets/photo_2023-04-26_20-56-35.jpg)
+## Pepperghost Technology
+How we achieve pepperghost is through the light emitted from the TV monitor being reflected onto the acrylic sheet, hung at a certain angle. The projected image then interacts with the landscape, by having the projected image walk on the physical landscape.
 
 
 
