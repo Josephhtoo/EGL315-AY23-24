@@ -59,10 +59,10 @@ The Laptop sends video and audio signal to the audio de-embedder via HDMI connec
 
 
 ## Video Setup (Hardware)
-<h3>Step 1:</h3>
-<h3>Step 2:</h3>
-<h3>Step 3:</h3>
-<h3>Step 4:</h3>
+<h3>Step 1: Connect Laptop to Network Switch via LAN cable</h3>
+<h3>Step 2: Connect Nework Switch to Server via LAN cable</h3>
+<h3>Step 3: Connect Network Switch to audio de-embedder via HDMI cable</h3>
+<h3>Step 4: Connect audio de-embedder to TV monitor via HDMI cable</h3>
 
 ## Video Setup (Software)
 <h3>Step 1: Setting up Christie Pandora Box</h3>
@@ -87,36 +87,20 @@ Ensure that your server is on the same ip subnet, being 192.168.254.25 and selec
 <h3>Step 3: Connecting to Christie Pandora Box to Christie Pandora Box Server Management</h3>
 After configuring the ip addresses and adaptor connection of both your laptop and server, double check on Christie Pandora Box to see if both softwares are connected
 
-## **Dagger Edits** 
+## **Asset animations** 
 
-[![Watch the video](Assets/thumbnails/AttackDagger.jpg)](https://www.youtube.com/watch?v=DiMfWIs8LUc) 
+[![Watch the video](Assets/DaggerCombV1.jpg)](https://youtu.be/xPTUq8ydhzo)
 
-A short attacking animation video of daggerman 
+This is how the death animation of the Assasin looks like!
 
-[![Watch the video](Assets/thumbnails/DaggerCombV1.jpg)](https://youtu.be/xPTUq8ydhzo)
+[![Watch the video](Assets/DaggerCombVic.jpg)](https://youtu.be/zA-caRkYX9w)
 
-A full death animation video of daggerman 
+This is how the victory animation of the Assasin looks like!
 
-[![Watch the video](Assets/thumbnails/DaggerCombVic.jpg)](https://youtu.be/zA-caRkYX9w)
+[![Watch the video](Assets/DaggerVP.jpg)](https://youtu.be/eGG7mUD-HII)
 
-A full victory animation video of daggerman 
+This is how the spawn animation of the Assasin looks like!
 
-[![Watch the video](Assets/thumbnails/DaggerDeathv1.jpg)](https://youtu.be/shDJ2hvP4XM)
-
-A death animation video of daggerman 
-
-[![Watch the video](Assets/thumbnails/DaggerIdleV1.jpg)](https://youtu.be/bo7_ZhQ19j4)
-
-An idle animation video of daggerman  
-
-[![Watch the video](Assets/thumbnails/DaggerVP.jpg)](https://youtu.be/eGG7mUD-HII)
-
-A spawn animation video of daggerman
-
-[![Watch the video](Assets/thumbnails/DaggerVP.jpg)](https://youtu.be/eLfmyesCC1E)
-
-A walking animation video of daggerman
- 
 
 
 
