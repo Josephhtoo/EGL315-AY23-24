@@ -65,21 +65,21 @@ The Laptop sends video and audio signal to the audio de-embedder via HDMI connec
 ## Video Setup (Software)
 <h3>Step 1: Setting up Christie Pandora Box</h3>
 
-![Capture](Thumbnails/Media.PNG)<br>
+![Capture](../Thumbnails/Mediaa.PNG)<br>
 Create a folder to store all the required assets
 
-![Capture](Thumbnails/Capture.PNG)<br>
+![Capture](../Thumbnails/Capture.PNG)<br>
 Under ...... ensure your Domain is 1 and your preferred netowrk adaptor is Ethernet 11 
 
-![Capture](Thumbnails/IP.PNG)<br>
+![Capture](../Thumbnails/IP.PNG)<br>
 Configure the ip address your laptop's Ethernet 11 to 192.168.254.27
 
-![Capture](Thumbnails/layers.png)<br>
+![Capture](../Thumbnails/layers.png)<br>
 Add the required amount of video layers under the server(Desktop xxx) as shown in the image below by right-clicking the server -> add device -> add video layer
 
 <h3>Step 2: Setting up Christie Pandora Box Server Management</h3>
 
-<br>![Capture](Thumbnails/PBServer.png)<br>
+<br>![Capture](../Thumbnails/PBServer.png)<br>
 Ensure that your server is on the same ip subnet, being 192.168.254.25 and select Ethernet 11 under Adaptor options 
 
 <h3>Step 3: Connecting to Christie Pandora Box to Christie Pandora Box Server Management</h3>
