@@ -54,8 +54,6 @@ The Laptop sends video and audio signal to the audio de-embedder via HDMI connec
 ## Control Setup (Software)
 <h3>Step 1: Setting up Widget Designer</h3>
 <h3>Step 2: Configuring Widget Designer</h3>
-<h3>Step 3:</h3>
-<h3>Step 4:</h3>
 
 
 ## Video Setup (Hardware)
