@@ -85,27 +85,4 @@ Add the required amount of video layers under the server(Desktop xxx) as shown i
 Ensure that your server is on the same ip subnet, being 192.168.254.25 and select Ethernet 11 under Adaptor options 
 
 <h3>Step 3: Connecting to Christie Pandora Box to Christie Pandora Box Server Management</h3>
-After configuring the ip addresses and adaptor connection of both your laptop and server, double check on Christie Pandora Box to see if both softwares are connected
-
-## **Asset animations** 
-
-[![Watch the video](Assets/DaggerCombV1.jpg)](https://youtu.be/xPTUq8ydhzo)
-
-This is how the death animation of the Assasin looks like!
-
-[![Watch the video](Assets/DaggerCombVic.jpg)](https://youtu.be/zA-caRkYX9w)
-
-This is how the victory animation of the Assasin looks like!
-
-[![Watch the video](Assets/DaggerVP.jpg)](https://youtu.be/eGG7mUD-HII)
-
-This is how the spawn animation of the Assasin looks like!
-
-
-
-
-
-
-
-
-
+After configuring the ip addresses and adaptor connection of both your laptop and server, double check on Christie Pandora Box to see if both softwares are connected.
