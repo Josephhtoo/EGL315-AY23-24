@@ -53,7 +53,7 @@ The Laptop sends video and audio signal to the audio de-embedder via HDMI connec
 
 ## Control Setup (Software)
 <h3>Step 1: Setting up Widget Designer</h3>
-<h3>Step 2:</h3>
+<h3>Step 2: Configuring Widget Designer</h3>
 <h3>Step 3:</h3>
 <h3>Step 4:</h3>
 
@@ -86,3 +86,31 @@ Ensure that your server is on the same ip subnet, being 192.168.254.25 and selec
 
 <h3>Step 3: Connecting to Christie Pandora Box to Christie Pandora Box Server Management</h3>
 After configuring the ip addresses and adaptor connection of both your laptop and server, double check on Christie Pandora Box to see if both softwares are connected.
+
+## Audio Setup (Hardware)
+<h3>Step 1: Connect 3.5mm jack to Audio De-embedder</h3>
+(Insert image of 3.5mm jack connection to audio de-embedder)<br>
+Using the custom speaker cable provided connect the end with the 3.5mm jack to the audio de-embedder.
+
+<h3>Step 2: Connect bear end cable to Speakers</h3>
+(Insert image of bear end cable connection to speakers)<br>
+Using the same custom speaker cable connect the bear end part of the cable to the speakers, each speaker should have a positve and a neutral wire connected to it.
+
+## Audio Setup (Software)
+<h3>Step 1: Setting up audio in Christie Pandora Box</h3>
+
+## Lighting Setup (Hardware)
+<h3>Step 1: Connecting grandMA3 console to DMX Splitters</h3>
+(Insert image of DMX connection on grandMA3 console side)<br>
+Using the 5-pin xlr cable connect the male side of the cable into port A of the console, Do the same for port B.
+
+(Insert image of DMX connection on DMX splitters)<br>
+On the other end of the same cable that you used to connect to the console, connect it to the DMX input port of the DMX splitter connect the other cable that was plugged into port B into another DMX splitter.
+
+
+<h3>Step 2: Connecting DMX Transmitters to DMX Splitters</h3>
+(Insert image of DMX connection on DMX Transmitters)<br>
+Connect the DMX Transmitter into the DMX output ports of the DMX splitter, each splitter should be connected to 2 DMX Transmitters
+
+
+## Lighting Setup (Software)
