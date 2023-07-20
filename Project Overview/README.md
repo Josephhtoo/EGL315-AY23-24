@@ -112,3 +112,11 @@ Connect the DMX Transmitter into the DMX output ports of the DMX splitter, each 
 
 
 ## Lighting Setup (Software)
+
+
+## MVP
+
+Here is a [link][MVP_url] to YouTube for our MVP 
+
+
+[MVP_url]: https://www.youtube.com/watch?v=gwVx0OAnEbk
