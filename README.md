@@ -64,7 +64,10 @@ To code the devices required into Widget Designer, go to Devices -> Configuratio
 
 <h3>Step 2: Connect Nework Switch to Server via LAN cable</h3>
 
-<h3>Step 3: Connect Network Switch to audio de-embedder via HDMI cable</h3>
+<h3>Step 3: Connect Server to audio de-embedder via HDMI cable</h3>
+
+![Capture](Thumbnails/HDMI_IN.jpg)<br>
+This sends Audio and Video signal from the server to the audio de-embedder 
 
 <h3>Step 4: Connect audio de-embedder to TV monitor via HDMI cable</h3>
 
@@ -97,7 +100,7 @@ After configuring the ip addresses and adaptor connection of both your laptop an
 ## Audio Setup (Hardware)
 <h3>Step 1: Connect 3.5mm jack to Audio De-embedder</h3>
 
-![Capture](Thumbnails/audio_out.png)
+![Capture](Thumbnails/audio_out.jpg)
 Using the custom speaker cable provided connect the end with the 3.5mm jack to the audio de-embedder.
 
 <h3>Step 2: Connect bear end cable to Speakers</h3>
@@ -111,7 +114,8 @@ Insert the audio file provided in to the timeline at ....Then, under open up the
 
 ## Lighting Setup (Hardware)
 <h3>Step 1: Connecting grandMA3 console to DMX Splitters</h3>
-(Insert image of DMX connection on grandMA3 console side)<br>
+
+![Capture](Thumbnails/Console_conn.jpg)
 Using the 5-pin xlr cable connect the male side of the cable into port A of the console, Do the same for port B.
 
 (Insert image of DMX connection on DMX splitters)<br>
