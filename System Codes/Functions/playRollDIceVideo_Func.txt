@@ -1,0 +1,56 @@
+DeviceSetParam(3,29,"RGB Key|Mix",255)
+DeviceSetParam(3,30,"RGB Key|Mix",255)
+DeviceSetParam(3,1,"Y Angle",180)
+DeviceSetParam(3,29,"X Pos",-4)
+DeviceSetParam(3,30,"X Pos",4.9)
+DeviceSetParam(3,29,"Y Pos",0)
+DeviceSetParam(3,30,"Y Pos",0)
+DeviceSetParam(3,29,"Y Angle",180)
+DeviceSetParam(3,30,"Y Angle",180)
+DeviceSetParam(3,29,"Z Scale",0.490)
+DeviceSetParam(3,30,"Z Scale",0.490)
+DeviceSetParam(3,30,"Y Scale",0.490)
+DeviceSetParam(3,29,"Y Scale",0.490)
+DeviceSetParam(3,29,"X Scale",0.490)
+DeviceSetParam(3,30,"X Scale",0.490)
+DeviceSetParam(3,32,"Y Angle",180)
+DeviceSetParam(3,32,"X Pos",2)
+DeviceSetParam(3,33,"Y Angle",180)
+DeviceSetParam(3,33,"X Pos",-2)
+WDWait(0.5)
+DeviceSetMedia(3,29,1,19)
+DeviceSetMedia(3,30,1,19)
+DeviceSetParam(3,29,"Opacity",255)
+DeviceSetParam(3,30,"Opacity",255)
+DeviceSetParam(3,29,"Playback Transport","Play")
+DeviceSetParam(3,30,"Playback Transport","Play")
+WDWait(3.0)  
+DeviceSetMedia(3,32,2,3)
+DeviceSetMedia(3,33,2,4)
+WDWait(1.5)
+DeviceSetParam(3,29,"Playback Transport","Pause") 
+DeviceSetParam(3,30,"Playback Transport","Pause") 
+DeviceSetParam(3,33,"Playback Transport","Pause")
+DeviceSetParam(3,34,"Playback Transport","Pause")
+if randomDice1Integer > randomDice2Integer {
+	winnerString="Player 1 Wins"
+	TextInput1.Text=winnerString
+	TextInput1.Update
+	DeviceSetParam(3,1,"X Pos",-2.3)
+	DeviceSetMedia(3,1,2,2)
+}
+Elseif randomDice1Integer < randomDice2Integer {
+	winnerString="Player 2 Wins"
+	TextInput1.Text=winnerString
+	TextInput1.Update
+	DeviceSetMedia(3,1,2,2)
+	DeviceSetParam(3,1,"X Pos",-2.3)
+	DeviceSetParam(3,1,"X Pos",-2.3)
+}
+WDWait(2.0)
+ResetDevice(3,1)
+ResetDevice(3,29)
+ResetDevice(3,30)
+ResetDevice(3,31)
+ResetDevice(3,32)
+ResetDevice(3,33)

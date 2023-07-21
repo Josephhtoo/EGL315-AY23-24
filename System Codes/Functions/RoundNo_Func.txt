@@ -1,0 +1,7 @@
+gameno+=1
+TextInput4.Text= "Round " + gameno
+TextInput4.Update
+DeviceSetParam(3,25,"Y Angle",180)
+DeviceSetMedia(3,25,2,6)
+WDWait(2.0)
+ResetDevice(3,25)

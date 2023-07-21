@@ -1,4 +1,4 @@
-If Click = 0 {
+f Click = 0 {
 	SeqGotoCue(1,1)
 	SeqSetState(1,"Play")
 	Click+=1

@@ -1,0 +1,8 @@
+VValueRandomMinMax("randomDice1",1,20)
+VValueRandomMinMax("randomDice2",1,20)
+randomDice1Integer=randomDice1.ToInteger
+randomDice2Integer=randomDice2.ToInteger
+TextInput2.Text=randomDice1Integer
+TextInput2.Update
+TextInput3.Text=randomDice2Integer
+TextInput3.Update
