@@ -119,7 +119,7 @@ Using the custom speaker cable provided connect the end with the 3.5mm jack to t
 Using the same custom speaker cable connect the bear end part of the cable to the speakers, each speaker should have a positvely and a negatively charged wire connected to it.
 
 ## Audio Setup (Software)
-<h3>Step 1: Setting up audio in Christie Pandora Box</h3>
+<h3>Setting up audio in Christie Pandora Box</h3>
 Insert the audio file provided in to the timeline at ....Then, under open up the layer the audio file is in, in the audio section  change the value to -96dB for the start of the audio clip, click Store Active(red button at the top of timeline), click your cursor to a later part of the clip and store active the audio at 0dB. This gives the audio a fade in effect.
 
 ## Lighting Setup (Hardware)
@@ -139,8 +139,14 @@ Connect the DMX Transmitter into the DMX output ports of the DMX splitter, each 
 
 
 ## Lighting Setup (Software)
+<h3>Step 1: Import the MVP_File.show</h3>
+The show file provided will give a template on how the lights are being controlled
 
+<h3>Step 2: Creating Sequences</h3>
+Create 4 sequences for intro, battle, player 1 win and player 2 win. You can do so by typing store and clicking on an empty box in the Sequence window
 
+<h3>Step 3: Creating cues</h3>
+These cues will trigger which lights will activate in which Sequence you create the cue in, 
 
 ## Demo Video (Minimum Viable Product)
 
