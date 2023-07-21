@@ -53,8 +53,15 @@ The Laptop sends video and audio signal to the audio de-embedder via HDMI connec
 
 ## Control Setup (Software)
 <h3>Step 1: Setting up Widget Designer</h3>
+Under Connection -> PB Configuation, ensure your domain is 11 and your ip address set in Widget Designer is 192.168.254.27 and your domain is 11 to connect to Pandora Box
+
 <h3>Step 2: Configuring Widget Designer</h3>
 
+
+To add the devices required into Widget Designer, go to Devices -> Configuration then click the plus sign on the bottom left of the tab and select the required device: Interface Kit 8/8/8 x1, PhidgetRFID x2 
+
+
+To code the devices required into Widget Designer, go to Devices -> Configuration then click the plus sign on the bottom left of the tab and select Event Listener, do this 4 times. 
 
 ## Video Setup (Hardware)
 <h3>Step 1: Connect Laptop to Network Switch via LAN cable</h3>
@@ -65,11 +72,11 @@ The Laptop sends video and audio signal to the audio de-embedder via HDMI connec
 ## Video Setup (Software)
 <h3>Step 1: Setting up Christie Pandora Box</h3>
 
-![Capture](../Thumbnails/Mediaa.PNG)<br>
+![Capture](../Thumbnails/Media.PNG)<br>
 Create a folder to store all the required assets
 
 ![Capture](../Thumbnails/Capture.PNG)<br>
-Under ...... ensure your Domain is 1 and your preferred netowrk adaptor is Ethernet 11 
+Under Configuration -> Network, ensure your Domain is 1 and your preferred netowrk adaptor is Ethernet 11 
 
 ![Capture](../Thumbnails/IP.PNG)<br>
 Configure the ip address your laptop's Ethernet 11 to 192.168.254.27
@@ -96,6 +103,7 @@ Using the same custom speaker cable connect the bear end part of the cable to th
 
 ## Audio Setup (Software)
 <h3>Step 1: Setting up audio in Christie Pandora Box</h3>
+Insert the audio file provided in to the timeline at ....Then, under open up the layer the audio file is in, in the audio section  change the value to -96dB for the start of the audio clip, click Store Active(red button at the top of timeline), click your cursor to a later part of the clip and store active the audio at 0dB. This gives the audio a fade in effect.
 
 ## Lighting Setup (Hardware)
 <h3>Step 1: Connecting grandMA3 console to DMX Splitters</h3>
@@ -114,9 +122,9 @@ Connect the DMX Transmitter into the DMX output ports of the DMX splitter, each 
 ## Lighting Setup (Software)
 
 
-## MVP
+## Demo Video (Minimum Viable Product)
 
-Here is a [link][MVP_url] to YouTube for our MVP 
+Here is a [link][MVP_url] to YouTube for you to see how our project looks like
 
 
 [MVP_url]: https://www.youtube.com/watch?v=gwVx0OAnEbk
