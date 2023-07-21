@@ -122,6 +122,7 @@ Connect the DMX Transmitter into the DMX output ports of the DMX splitter, each 
 ## Lighting Setup (Software)
 
 
+
 ## Demo Video (Minimum Viable Product)
 
 Here is a [link][MVP_url] to YouTube for you to see how our project looks like
