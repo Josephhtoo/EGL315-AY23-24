@@ -140,6 +140,8 @@ Connect the DMX Transmitter into the DMX output ports of the DMX splitter, each 
 
 ## Lighting Setup (Software)
 <h3>Step 1: Import the MVP_File.show</h3>
+
+![Capture](Thumbnails/Workspace.jpg)<br>
 The show file provided will give a template on how the lights are being controlled
 
 <h3>Step 2: Creating Sequences</h3>
