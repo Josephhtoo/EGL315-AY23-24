@@ -44,11 +44,21 @@ The Laptop sends video and audio signal to the audio de-embedder via HDMI connec
 
 ## Control Setup (Hardware)
 <h3>Step 1: Connect the laptop to USB hub via USB type A - USB type B 3.0</h3>
+
+This allows the laptop to connect to more devices via usb
+
 <h3>Step 2: Connect the RFID readers to USB hub via USB type A - USB type B 2.0</h3>
+
+This allows the laptop to receive information from the RFID readers
+
 <h3>Step 3: Connect the phidget to USB hub via USB type A - USB mini</h3>
+
+This allows the laptop to receive information from phidget 
 
 ## Control Setup (Software)
 <h3>Step 1: Setting up Widget Designer</h3>
+
+
 Under Connection -> PB Configuation, ensure your domain is 11 and your ip address set in Widget Designer is 192.168.254.27 and your domain is 11 to connect to Pandora Box
 
 <h3>Step 2: Configuring Widget Designer</h3>
@@ -105,7 +115,7 @@ Using the custom speaker cable provided connect the end with the 3.5mm jack to t
 
 <h3>Step 2: Connect bear end cable to Speakers</h3>
 
-![Capture](Thumbnails/SpeakerPort_conn.jpg)
+![Capture](Thumbnails/SpeakerPort_conn.jpg)<br>
 Using the same custom speaker cable connect the bear end part of the cable to the speakers, each speaker should have a positvely and a negatively charged wire connected to it.
 
 ## Audio Setup (Software)
@@ -115,15 +125,16 @@ Insert the audio file provided in to the timeline at ....Then, under open up the
 ## Lighting Setup (Hardware)
 <h3>Step 1: Connecting grandMA3 console to DMX Splitters</h3>
 
-![Capture](Thumbnails/Console_conn.jpg)
+![Capture](Thumbnails/ConsoleOut_conn.jpg)<br>
 Using the 5-pin xlr cable connect the male side of the cable into port A of the console, Do the same for port B.
 
-(Insert image of DMX connection on DMX splitters)<br>
+![Capture](Thumbnails/DMXSplitterIN_conn.jpg)<br>
 On the other end of the same cable that you used to connect to the console, connect it to the DMX input port of the DMX splitter connect the other cable that was plugged into port B into another DMX splitter.
 
 
 <h3>Step 2: Connecting DMX Transmitters to DMX Splitters</h3>
-(Insert image of DMX connection on DMX Transmitters)<br>
+
+![Capture](Thumbnails/DMXSplitterOut_conn.jpg)<br>
 Connect the DMX Transmitter into the DMX output ports of the DMX splitter, each splitter should be connected to 2 DMX Transmitters
 
 
