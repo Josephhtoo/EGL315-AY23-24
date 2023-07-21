@@ -127,5 +127,4 @@ Connect the DMX Transmitter into the DMX output ports of the DMX splitter, each 
 
 Here is a [link][MVP_url] to YouTube for you to see how our project looks like
 
-
 [MVP_url]: https://www.youtube.com/watch?v=gwVx0OAnEbk
