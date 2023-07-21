@@ -98,7 +98,7 @@ After configuring the ip addresses and adaptor connection of both your laptop an
 Using the custom speaker cable provided connect the end with the 3.5mm jack to the audio de-embedder.
 
 <h3>Step 2: Connect bear end cable to Speakers</h3>
-(Insert image of bear end cable connection to speakers)<br>
+![Capture](./Thumbnails/SpeakerPort_conn.jpg)
 Using the same custom speaker cable connect the bear end part of the cable to the speakers, each speaker should have a positve and a neutral wire connected to it.
 
 ## Audio Setup (Software)

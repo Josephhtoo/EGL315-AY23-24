@@ -1,0 +1,1518 @@
+cardString2 = Phidgets_PhidgetRFID2.TagString
+
+If cardString2.IsMatch("010775a7cc") {
+	DeviceSetParam(3,3,"X Pos",-4)
+	DeviceSetParam(3,3,"Y Pos",-2)
+	DeviceSetParam(3,3,"Y Angle",180)
+	DeviceSetParam(3,3,"Z Scale",0.660)
+	DeviceSetParam(3,3,"Y Scale",0.660)
+	DeviceSetParam(3,3,"X Scale",0.660)
+	DeviceSetParam(3,3,"RGB Key|Mix",255)
+	WDWait(0.5)
+	DeviceSetParam(3,3,"Opacity",255)
+	DeviceSetMedia(3,3,1,2)
+	DeviceSetParam(3,3,"Playback Transport","Play") 
+	WDWait(5.0)
+	DeviceSetParam(3,3,"Playback Transport","Pause") 
+	PhidgetRFID2IsReady = True
+	RoundNo()
+	RandomNo_Generator()
+	WDWait(2.0)
+	If randomDice2Integer > randomDice1Integer {
+		
+		WDWait(2.0)
+		If cardString1 = "010775a07a" {
+			DeviceSetParam(3,3,"X Pos",-1)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,3)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",5)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,4)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "01077575bb" {
+			DeviceSetParam(3,3,"X Pos",-1)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,3)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",2)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,7)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077584cd" {
+			DeviceSetParam(3,3,"X Pos",-1)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,3)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",5)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,10)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077597fa" {
+			DeviceSetParam(3,3,"X Pos",-1)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,3)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",5)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,13)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "0107757c36" {
+			DeviceSetParam(3,3,"X Pos",-1)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,3)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",5)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,16)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		player2 = player2 + 1
+
+	}
+	Elseif randomDice2Integer < randomDice1Integer {
+		
+		WDWait(2.0)
+		If cardString1 = "010775a07a" {
+			DeviceSetParam(3,3,"X Pos",-1)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,1)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",5)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,6)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077575bb" {
+			DeviceSetParam(3,3,"X Pos",-1)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,1)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",2)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,9)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077584cd" {
+			DeviceSetParam(3,3,"X Pos",-1)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,1)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",5)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,12)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077597fa" {
+			DeviceSetParam(3,3,"X Pos",-1)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,1)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",5)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,15)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "0107757c36" {
+			DeviceSetParam(3,3,"X Pos",-1)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,1)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",5)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,18)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		player1 = player1 + 1
+	}
+}
+
+If cardString2.IsMatch("010775a07a") {
+	DeviceSetParam(3,3,"X Pos",-4)
+	DeviceSetParam(3,3,"Y Pos",-2)
+	DeviceSetParam(3,3,"Y Angle",180)
+	DeviceSetParam(3,3,"Z Scale",0.400)
+	DeviceSetParam(3,3,"Y Scale",0.400)
+	DeviceSetParam(3,3,"X Scale",0.400)
+	DeviceSetParam(3,3,"RGB Key|Mix",255)
+	WDWait(0.5)
+	DeviceSetParam(3,3,"Opacity",255)
+	DeviceSetMedia(3,3,1,5)
+	DeviceSetParam(3,3,"Playback Transport","Play") 
+	WDWait(3.0)
+	DeviceSetParam(3,3,"Playback Transport","Pause") 
+	PhidgetRFID2IsReady = True
+	RoundNo()
+	RandomNo_Generator()
+	WDWait(2.0)
+	If randomDice2Integer > randomDice1Integer {
+		
+		WDWait(2.0)
+		If cardString1 = "010775a7cc" {	
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,6)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,1)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "01077575bb" {	
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,6)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,7)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "01077584cd" {	
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,6)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,10)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "01077597fa" {	
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,6)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,13)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "0107757c36" {	
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,6)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,16)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		player2 = player2 + 1
+
+	}
+	Elseif randomDice2Integer < randomDice1Integer {
+		
+		PhidgetRFID2IsReady = True
+		WDWait(2.0)
+		If cardString1 = "010775a7cc" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,4)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,3)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077575bb" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,4)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,9)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077584cd" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,4)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,12)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077597fa" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,4)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,15)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "0107757c36" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,4)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,18)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		player1 = player1 + 1
+
+	}
+}
+
+Elseif cardString2.IsMatch("01077575bb") {
+	DeviceSetParam(3,3,"X Pos",0)
+	DeviceSetParam(3,3,"Y Pos",-2)
+	DeviceSetParam(3,3,"Y Angle",180)
+	DeviceSetParam(3,3,"Z Scale",0.660)
+	DeviceSetParam(3,3,"Y Scale",0.660)
+	DeviceSetParam(3,3,"X Scale",0.660)
+	DeviceSetParam(3,3,"RGB Key|Mix",255)
+	WDWait(0.5)
+	DeviceSetParam(3,3,"Opacity",255)
+	DeviceSetMedia(3,3,1,8)
+	DeviceSetParam(3,3,"Playback Transport","Play") 
+	WDWait(3.0)
+	DeviceSetParam(3,3,"Playback Transport","Pause") 
+	PhidgetRFID2IsReady = True
+	RoundNo()
+	RandomNo_Generator()
+	WDWait(2.0)
+	If randomDice2Integer > randomDice1Integer {
+		
+		WDWait(0.5)
+		If cardString1 = "010775a7cc" {	
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"Y Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,9)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,1)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "010775a07a" {	
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,9)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,4)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "01077584cd" {	
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,9)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,10)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "01077597fa" {	
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,9)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,13)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "0107757c36" {	
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,9)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,16)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		player2 = player2 + 1
+
+	}
+	Elseif randomDice2Integer < randomDice1Integer {
+		
+		PhidgetRFID2IsReady = True
+		WDWait(0.5)
+		If cardString1 = "010775a7cc" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"Y Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,7)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,3)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "010775a07a" {	
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,7)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,6)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077584cd" {	
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,7)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,12)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077597fa" {	
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,7)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,15)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "0107757c36" {	
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,7)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,18)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		player1 = player1 + 1
+
+	}
+}
+
+Elseif cardString2.IsMatch("01077584cd") {
+	DeviceSetParam(3,3,"X Pos",-5)
+	DeviceSetParam(3,3,"Y Pos",-2)
+	DeviceSetParam(3,3,"Y Angle",180)
+	DeviceSetParam(3,3,"Z Scale",0.660)
+	DeviceSetParam(3,3,"Y Scale",0.660)
+	DeviceSetParam(3,3,"X Scale",0.660)
+	DeviceSetParam(3,3,"RGB Key|Mix",255)
+	WDWait(0.5)
+	DeviceSetParam(3,3,"Opacity",255)
+	DeviceSetMedia(3,3,1,11)
+	DeviceSetParam(3,3,"Playback Transport","Play") 
+	WDWait(4.5)
+	DeviceSetParam(3,3,"Playback Transport","Pause") 
+	PhidgetRFID2IsReady = True
+	RoundNo()
+	RandomNo_Generator()
+	WDWait(2.0)
+	If randomDice2Integer > randomDice1Integer {
+		WDWait(2.0)
+		If cardString1 = "010775a7cc" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,12)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,1)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "010775a07a" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,12)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,4)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "01077575bb" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,12)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,7)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077597fa" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,12)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,13)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "0107757c36" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,12)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,16)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		player2 = player2 + 1
+
+	}
+	Elseif randomDice2Integer < randomDice1Integer {
+		
+		WDWait(2.0)
+		If cardString1 = "010775a7cc" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,10)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,3)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+
+		Elseif cardString1 = "010775a07a" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,10)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,6)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077575bb" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,10)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,9)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077597fa" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,10)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,15)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "0107757c36" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,10)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,18)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		player1 = player1 + 1
+	}
+
+
+}
+
+Elseif cardString2.IsMatch("01077597fa") {
+	DeviceSetParam(3,3,"X Pos",-5)
+	DeviceSetParam(3,3,"Y Pos",-2)
+	DeviceSetParam(3,3,"Z Scale",0.660)
+	DeviceSetParam(3,3,"Y Scale",0.660)
+	DeviceSetParam(3,3,"X Scale",0.660)
+	DeviceSetParam(3,3,"RGB Key|Mix",255)
+	WDWait(0.5)
+	DeviceSetParam(3,3,"Opacity",255)
+	DeviceSetMedia(3,3,1,14)
+	DeviceSetParam(3,3,"Playback Transport","Play") 
+	WDWait(4.5)
+	DeviceSetParam(3,3,"Playback Transport","Pause") 
+	PhidgetRFID2IsReady = True
+	RoundNo()
+	RandomNo_Generator()
+	WDWait(2.0)
+	If randomDice2Integer > randomDice1Integer {
+		WDWait(2.0)
+		If cardString1 = "010775a7cc" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,15)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,1)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "010775a07a" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,15)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,4)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "01077575bb" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,15)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,7)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077584cd" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,15)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,10)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "0107757c36" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,15)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,16)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		player2 = player2 + 1
+
+	}
+	Elseif randomDice2Integer < randomDice1Integer {
+		
+		WDWait(2.0)
+		If cardString1 = "010775a7cc" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,13)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,3)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+
+		Elseif cardString1 = "010775a07a" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,13)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,6)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077575bb" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,13)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,9)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077584cd" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,13)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,12)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "0107757c36" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,13)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,18)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		player1 = player1 + 1
+	}
+}
+
+Elseif cardString2.IsMatch("0107757c36") {
+
+	DeviceSetParam(3,3,"X Pos",-5)
+	DeviceSetParam(3,3,"Y Pos",-2)
+	DeviceSetParam(3,3,"Z Scale",0.660)
+	DeviceSetParam(3,3,"Y Scale",0.660)
+	DeviceSetParam(3,3,"X Scale",0.660)
+	DeviceSetParam(3,3,"RGB Key|Mix",255)
+	WDWait(0.5)
+	DeviceSetParam(3,3,"Opacity",255)
+	DeviceSetMedia(3,3,1,17)
+	DeviceSetParam(3,3,"Playback Transport","Play") 
+	WDWait(4.5)
+	DeviceSetParam(3,3,"Playback Transport","Pause") 
+	PhidgetRFID2IsReady = True
+	RoundNo()
+	RandomNo_Generator()
+	WDWait(2.0)
+	If randomDice2Integer > randomDice1Integer {
+		WDWait(2.0)
+		If cardString1 = "010775a7cc" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,18)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,1)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "010775a07a" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,18)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,4)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+
+		}
+		Elseif cardString1 = "01077575bb" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,18)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,7)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077584cd" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,18)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,10)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077597fa" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,18)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,13)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+	}
+	Elseif randomDice2Integer < randomDice1Integer {
+		
+		WDWait(2.0)
+		If cardString1 = "010775a7cc" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,16)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,3)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+
+		Elseif cardString1 = "010775a07a" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,16)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,6)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077575bb" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,16)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,9)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077584cd" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,16)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,12)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			WDWait(4.0)
+			
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+		Elseif cardString1 = "01077597fa" {
+			DeviceSetParam(3,3,"X Pos",-2)
+			DeviceSetParam(3,3,"RGB Key|Mix",255)
+			DeviceSetMedia(3,3,1,16)
+			DeviceSetParam(3,3,"Playback Transport","Play")
+			DeviceSetParam(3,2,"X Pos",4)
+			DeviceSetParam(3,2,"RGB Key|Mix",255)
+			DeviceSetMedia(3,2,1,15)
+			DeviceSetParam(3,2,"Playback Transport","Play")
+			
+			WDWait(4.0)
+			playRollDiceVideo()
+			WDWait(7.0)
+			ResetDevice(3,2)
+			ResetDevice(3,3)
+			WDWait(0.5)
+			cardString1 = ""
+			cardString2 = ""
+			PhidgetRFID1IsReady = False
+			PhidgetRFID2IsReady = False
+			WDWait(1.0)
+		}
+	}
+}

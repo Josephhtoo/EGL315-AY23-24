@@ -1,0 +1,45 @@
+WDWait(1.0)
+If player1 = 2 {
+	ResetAll
+	WDWait(0.5)
+	DeviceSetParam(3,25,"Y Angle",180)
+	DeviceSetMedia(3,25,1,22)
+	WDWait(5.0)
+	player1=0
+	player2=0
+	gameno=0
+	randomDice1Integer=0
+	randomDice2Integer=0
+	ResetAll
+	winnerString=""
+	PhidgetRFID1IsReady = False
+	PhidgetRFID2IsReady = False
+	cardString1=""
+	cardString2=""
+	Click=0
+	SeqGotoCue(1,3)
+
+	
+	
+}
+Elseif player2 = 2 {
+	ResetAll
+	WDWait(0.5)
+	DeviceSetParam(3,25,"Y Angle",180)
+	DeviceSetMedia(3,25,1,23)
+	WDWait(5.0)
+	player1=0
+	player2=0
+	gameno=0
+	randomDice1Integer=0
+	randomDice2Integer=0
+	ResetAll
+	winnerString=""
+	PhidgetRFID1IsReady = False
+	PhidgetRFID2IsReady = False
+	cardString1=""
+	cardString2=""
+	Click=0
+	SeqGotoCue(1,3)
+	
+}
