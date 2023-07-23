@@ -59,7 +59,7 @@ This allows the laptop to receive information from phidget
 <h3>Step 1: Setting up Widget Designer</h3>
 
 
-Under Connection -> PB Configuation, ensure your domain is 11 and your ip address set in Widget Designer is 192.168.254.27 and your domain is 11 to connect to Pandora Box
+Under Connection -> PB Configuation, ensure your domain is 1 and your ip address set in Widget Designer is 192.168.254.27 and your domain is 11 to connect to Pandora Box
 
 <h3>Step 2: Configuring Widget Designer</h3>
 
@@ -72,6 +72,12 @@ To code the devices required into Widget Designer, go to Devices -> Configuratio
 <h3>Step 3: Coding the devices added</h3>
 
 Copy the code provided into each device. RFID1_Code for RFID 1 tag enter, RFID2_Code and WinnerOutcome for RFID 2 tag enter and Button for Phidget 8/8/8
+
+<h3>Step 4: Add the required functions</h3>
+
+![Capture](Thumbnails/Create_Func.jpg)<br>
+To create functions go to scripting -> Scripts (Functions and Macros) -> New Function. Do this 4 times, then copy and paste the function codes under System codes -> Functions, each code for each function
+
 
 ## Video Setup (Hardware)
 <h3>Step 1: Connect Laptop to Network Switch via LAN cable</h3>
