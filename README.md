@@ -139,7 +139,7 @@ Insert the audio file provided in to the timeline at ....Then, under open up the
 ![Capture](Thumbnails/ConsoleOut_conn.jpg)<br>
 Using the 5-pin xlr cable connect the male side of the cable into port A of the console, Do the same for port B.
 
-![Capture](Thumbnails/DMXSplitterIN_conn.jpg)<br>
+![Capture](Thumbnails/DMXSplitterIn_conn.jpg)<br>
 On the other end of the same cable that you used to connect to the console, connect it to the DMX input port of the DMX splitter connect the other cable that was plugged into port B into another DMX splitter.
 
 
