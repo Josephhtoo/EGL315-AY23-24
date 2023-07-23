@@ -71,8 +71,10 @@ To code the devices required into Widget Designer, go to Devices -> Configuratio
 
 ## Video Setup (Hardware)
 <h3>Step 1: Connect Laptop to Network Switch via LAN cable</h3>
+This allows the laptop to talk to any devices connected to the Network Switch
 
 <h3>Step 2: Connect Nework Switch to Server via LAN cable</h3>
+This allows the server to talk to any devices connected to the Network Switch
 
 <h3>Step 3: Connect Server to audio de-embedder via HDMI cable</h3>
 
