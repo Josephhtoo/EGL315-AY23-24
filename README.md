@@ -67,11 +67,15 @@ Under Connection -> PB Configuation, ensure your domain is 11 and your ip addres
 To add the devices required into Widget Designer, go to Devices -> Configuration then click the plus sign on the bottom left of the tab and select the required device: Interface Kit 8/8/8 x1, PhidgetRFID x2 
 
 
-To code the devices required into Widget Designer, go to Devices -> Configuration then click the plus sign on the bottom left of the tab and select Event Listener, do this 4 times. 
+To code the devices required into Widget Designer, go to Devices -> Configuration then click the plus sign on the bottom left of the tab and select Event Listener, do this 4 times 
+
+<h3>Step 3: Coding the devices added</h3>
+
+Copy the code provided into each device. RFID1_Code for RFID 1 tag enter, RFID2_Code and WinnerOutcome for RFID 2 tag enter and Button for Phidget 8/8/8
 
 ## Video Setup (Hardware)
 <h3>Step 1: Connect Laptop to Network Switch via LAN cable</h3>
-This allows the laptop to talk to any devices connected to the Network Switch
+Use the type-c male to LAN female adapter to connect the LAN from the laptop to Network. This allows the laptop to talk to any devices connected to the Network Switch
 
 <h3>Step 2: Connect Nework Switch to Server via LAN cable</h3>
 This allows the server to talk to any devices connected to the Network Switch
@@ -79,7 +83,7 @@ This allows the server to talk to any devices connected to the Network Switch
 <h3>Step 3: Connect Server to audio de-embedder via HDMI cable</h3>
 
 ![Capture](Thumbnails/HDMI_IN.jpg)<br>
-This sends Audio and Video signal from the server to the audio de-embedder 
+Connect the HDMI cable from the server to the audio de-embedder, this sends Audio and Video signal from the server to the audio de-embedder 
 
 <h3>Step 4: Connect audio de-embedder to TV monitor via HDMI cable</h3>
 

@@ -25,11 +25,6 @@ This is how the victory animation of the Assasin looks like!
 
 This is how the spawn animation of the Assasin looks like!
 
-<h3>Brute</h3>
-[![Watch the video]("Replace with ELder victory image")]("Replace with Elder victory video")
-
-This is how the victory animation of the ELder looks like!
-
 <h3>Lizard</h3>
 
 
