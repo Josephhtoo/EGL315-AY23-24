@@ -58,7 +58,7 @@ This allows the laptop to receive information from phidget
 ## Control Setup (Software)
 <h3>Step 1: Setting up Widget Designer</h3>
 
-![Capture](Thumbnails/WD_config.PNG)<br>
+![Capture](Thumbnails/WD_config.jpg)<br>
 Go to Connection -> PB Configuation, ensure your domain is 1 and your ip address set in Widget Designer is 192.168.254.27 and your domain is 1 to connect to Pandora Box
 
 <h3>Step 2: Configuring Widget Designer</h3>
