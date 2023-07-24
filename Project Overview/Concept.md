@@ -25,8 +25,18 @@ This is how the victory animation of the Assasin looks like!
 
 This is how the spawn animation of the Assasin looks like!
 
-<h3>Lizard</h3>
+<h3> Brute </h3>
 
+[![Watch the video](../Assets/Brute_Death.jpg)](https://youtu.be/b8HiUy_lJug)
+
+This is how the death animation of the Brute looks like!
+
+[![Watch the video](../Assets/Brute_Victory.jpg)](https://youtu.be/xdhAeXP8tto)
+
+This is how the victory animation of the Brute looks like!
+
+
+<h3>Lizard</h3>
 
 [![Watch the video](../Assets/LizardArcher_Death.jpg)](https://www.youtube.com/watch?v=MxU6SAHRl1I)
 
