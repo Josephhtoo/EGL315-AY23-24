@@ -166,4 +166,4 @@ These cues will trigger which lights will activate in which Sequence you create 
 Here is a [link][MVP_url] to YouTube for you to see how our project looks like
 
 
-[MVP_url]: https://www.youtube.com/watch?v=gwVx0OAnEbk
+[MVP_url]:https://www.youtube.com/watch?v=gwVx0OAnEbk

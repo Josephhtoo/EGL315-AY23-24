@@ -9,8 +9,8 @@ THe core technology we are using to for this project are RFID readers. What the 
 How we achieve pepperghost is through the light emitted from the TV monitor being reflected onto the acrylic sheet, hung at a certain angle. The projected image then interacts with the landscape, by having the projected image walk on the physical landscape.
 
 ## **Asset animations** 
-Below are the different animations for our in game-characters
-
+Below are the different animations for our in game-characters, shoutout to **Farhan**
+and **Guanghui** from who did the character animation content
 <h3>Assasin</h3>
 
 [![Watch the video](../Assets/Assasin_Death.jpg)](https://youtu.be/okqqrTbpr7w)
@@ -64,7 +64,11 @@ This is how the victory animation of the ELder looks like!
 
 This is how the spawn animation of the ELder looks like!
 
+[![Watch the video](../Assets/ReaverSpawn.jpg)](https://youtu.be/PzJAEauGLQg)
 
+This is how the spawn animation of the ELder looks like!
 
+[![Watch the video](../Assets/ReaverVictory.jpg)](https://youtu.be/_m9xDpLRIsw)
 
+This is how the victory animation of the ELder looks like!
 
