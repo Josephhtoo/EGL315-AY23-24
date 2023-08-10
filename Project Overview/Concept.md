@@ -36,34 +36,55 @@ This is how the death animation of the Brute looks like!
 
 This is how the victory animation of the Brute looks like!
 
+[![Watch the video](../Assets/Brute_Spawn.jpg)](https://youtu.be/qZYf1Fb8RhM)
 
-<h3>Lizard</h3>
+This is how the Spawn animation of the Brute looks like!
 
-[![Watch the video](../Assets/LizardArcher_Death.jpg)](https://www.youtube.com/watch?v=MxU6SAHRl1I)
 
-This is how the death animation of the Lizard looks like!
+<h3>Lizard Archer</h3>
 
-[![Watch the video](../Assets/LizardArcher_Victory.jpg)](https://www.youtube.com/watch?v=f1UD68mAeGA)
+[![Watch the video](../Assets/Archer_Death.jpg)](https://youtu.be/uKMObxQf69c)
+
+This is how the death animation of the Lizard Archerlooks like!
+
+[![Watch the video](../Assets/Archer_Victory.jpg)](https://youtu.be/jeIxe5ThLKw)
 
 This is how the victory animation of the Lizard looks like!
 
-[![Watch the video](../Assets/LizardArcher_Spawn.jpg)](https://youtu.be/3quVM-No_TM)
+[![Watch the video](../Assets/Archer_Spawn.jpg)](https://youtu.be/3quVM-No_TM)
 
 This is how the spawn animation of the Lizard looks like!
 
-<h3>Elder</h3>
+<h3>Lizard Crusher</h3>
 
-[![Watch the video](../Assets/LizardElder_Death.jpg)](https://www.youtube.com/watch?v=epKruAo9mfk)
+[![Watch the video](../Assets/Crusher_Death.jpg)](https://youtu.be/Jpg9JJtoNig)
 
-This is how the death animation of the Elder looks like!
+This is how the death animation of the Crusher looks like!
 
-[![Watch the video](../Assets/LizardElder_Victory.jpg)](https://youtu.be/f_yh2qXDQmI)
+[![Watch the video](../Assets/Crusher_Victory.jpg)](https://youtu.be/NoNaIqCumOg)
 
-This is how the victory animation of the Elder looks like!
+This is how the victory animation of the Crusher looks like!
 
-[![Watch the video](../Assets/LizardElder_Spawn.jpg)](https://youtu.be/vmYpDKEf7aQ)
+[![Watch the video](../Assets/Crusher_Spawn.jpg)](https://youtu.be/cy-ujHunWwM)
 
-This is how the spawn animation of the Elder looks like!
+This is how the spawn animation of the Crusher looks like!
+
+<h3>Lizard Guard</h3>
+
+[![Watch the video](../Assets/Guard_Death.jpg)](https://youtu.be/cy-ujHunWwM)
+
+This is how the death animation of the Crusher looks like!
+
+[![Watch the video](../Assets/Guard_Victory.jpg)](https://youtu.be/f_yh2qXDQmI)
+
+This is how the victory animation of the Crusher looks like!
+
+[![Watch the video](../Assets/Guard_Spawn.jpg)](https://youtu.be/cy-ujHunWwM)
+
+This is how the spawn animation of the Crusher looks like!
+
+
+<h3>Reaver</h3>
 
 [![Watch the video](../Assets/ReaverSpawn.jpg)](https://youtu.be/djiyUHzSZE4)
 
