@@ -71,17 +71,17 @@ This is how the spawn animation of the Crusher looks like!
 
 <h3>Lizard Guard</h3>
 
-[![Watch the video](../Assets/Guard_Death.jpg)](https://youtu.be/cy-ujHunWwM)
+[![Watch the video](../Assets/Guard_Death.jpg)](https://youtu.be/ojoH40lp7Gs)
 
-This is how the death animation of the Crusher looks like!
+This is how the death animation of the Guard looks like!
 
 [![Watch the video](../Assets/Guard_Victory.jpg)](https://youtu.be/f_yh2qXDQmI)
 
-This is how the victory animation of the Crusher looks like!
+This is how the victory animation of the Guard looks like!
 
-[![Watch the video](../Assets/Guard_Spawn.jpg)](https://youtu.be/cy-ujHunWwM)
+[![Watch the video](../Assets/Guard_Spawn.jpg)](https://youtu.be/5E5F4QMxqY8)
 
-This is how the spawn animation of the Crusher looks like!
+This is how the spawn animation of the Guard looks like!
 
 
 <h3>Reaver</h3>
