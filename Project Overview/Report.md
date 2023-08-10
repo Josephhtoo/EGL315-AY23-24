@@ -1,6 +1,6 @@
 # EGL315-AY23/24
 ## **Storyboard**
-![Alt text](Assets/storyboard.png)
+![Alt text](../Thumbnails/storyboard.png)
 
 ## **Targeted Age Group**
 The targeted age group of our project are teenagers 13 to 24 since they are familiar with playing games and have more exposure to such games. Students at that age have been taught the concept of probability in their level of education in school which is one of the elements that the games contain [1]
@@ -19,11 +19,11 @@ John H. Pepper, who was lecturing at the Royal Polytechnic Institute in London a
 The pepper ghost technique is an illusion which is achieved using a transparent medium like an acrylic sheet, placed at a certain angle between a hidden room and the audience.
 Specular reflection is the reason behind the pepper's ghost, it's achieved when the angle of incidence of the light ray is travelling to a smooth and polished surface and it gets reflected into our eyes.
 ## Pepper Ghost 
-![Alt text](Assets/pepper_Ghost.jpg)
+![Alt text](../Thumbnails//pepper_Ghost.jpg)
 
 The original Pepper’s Ghost optical illusion involves placing a large piece of glass at an angle between a brightly lit “stage” room into which viewers look straight ahead and a hidden room. The glass reflects the hidden room, kept dark, that holds a “ghostly” scene. When the lights in the hidden room are slightly raised to illuminate the scene, the lights in the stage room are slightly dimmed, and the apparition appears to the audience.   
 ## Specular Reflection Phenomenon
-![Alt text](Assets/Specular_Reflection.jpg)
+![Alt text](../Thumbnails//Specular_Reflection.jpg)
 
 Based on the figure above, the angle of incidence is the angle between the light ray from the source of light and a line perpendicular (the imaginary line is normal) to the denser medium and as such the angle of reflection is symmetrically opposite from the angle of incidence. This was only possible on a smooth and polished surface. [3]
 
@@ -46,7 +46,7 @@ The original Pepper’s Ghost optical illusion involves placing a large piece of
 Our group will be mainly leveraging Pepper's ghost. Pepper Ghost mainly uses the light theory, specular reflection happening inside the acrylic to produce a holographic-like image.  Core technologies used would be the projector for screen projection, and RFID readers to detect the unique RFID tokens that will be used for the 6 unique game pieces. The reason we used RFID is because the RFID sensor can detect the individual values allowing us to use the game pieces as tokens with each token having a unique ID. 
 Other key technologies used would be the passive speakers in the audio aspect, and the intelligent lights in the lighting aspect. For audio, we are using the Mackie CR4 for audio purposes, which features a 4-inch woofer and a 0.75-inch ferrofluid-cooled silk dome tweeter. The speaker includes polypropylene woofers and rear-firing ports, ensuring a tight bass response. It can deliver a balanced and clear sound across a frequency response range of 60Hz to 20kHz, with a maximum SPL of 100dB. The Mackie CR4 is crafted to studio quality build standards, guaranteeing top-notch performance.  We also use the wash lights, MiniPanel-FX, to illuminate the game board, to allow both players to identify the board more easily from the virtual aspects and make it appear more prominent. We also use the spotlights, Mistral-TC, to highlight both players playing the game. In conclusion, both lighting and audio technologies used are key to enhancing the user’s experience while playing.<br><br><br>
 
-<p style="text-align: center;"><img src="Assets/AR.jpg"></p><br>
+<p style="text-align: center;"><img src="../Thumbnails/AR.jpg"></p><br>
 
 
 ## **Are there Commercial off-the-shelf (COTS) solutions available?**
@@ -70,16 +70,16 @@ Other key technologies used would be the passive speakers in the audio aspect, a
 ### **Project System Block / Signal Line Diagram**
 
 <u>Video Diagram</u>
-![Alt text](Assets/VideoD.jpg)
+![Alt text](../Thumbnails/VideoD.jpg)
 
 <u>Audio Diagram</u>
-![Alt text](Assets/AudioD.jpg)
+![Alt text](../Thumbnails//AudioD.jpg)
 
 <u>Lighting Diagram</u>
-![Alt text](Assets/LightingD.jpg)
+![Alt text](../Thumbnails/LightingD.jpg)
 
 <u>Control Diagram</u>
-![Alt text](Assets/ControlD.jpg)
+![Alt text](../Thumbnails//ControlD.jpg)
 
 ### **Floor Plan**
 ![Alt text](Assets/FP1.jpg)
@@ -89,9 +89,9 @@ Other key technologies used would be the passive speakers in the audio aspect, a
 
 ### **Proposed Equipment**
 
-| #           | Equipment                          |  Qty  |          Description                   |     
-|    :---:    | :---                               | :---: |         -----------                    | 
-| 1           | TV monitor (Samsung UE46A )        | 1     | To Project Pepper Ghost image          |
+| #           | Equipment                          |  Qty  |          Description                                        |     
+|    :---:    | :---                               | :---: |         -----------                                        |  
+| 1           | TV monitor (Samsung UE46A )        | 1     | To Project Pepper Ghost image                                              |
 | 2           | Server - HP workstation            | 1     | Run software and animate               |
 | 3           | Passive speakers (JBL css 1st)     | 4     | To simullate feeling of surround sound |
 | 4           | 2-channel Amplifier -Kramer 914    | 2     | Used to control 4 passive speakers     |
