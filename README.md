@@ -171,7 +171,7 @@ Here is a [link][MVP_url] to YouTube for you to see how our project looks like
 ## Final Product
 ![Capture](Thumbnails/Final_Product.jpg)
 
-This is an outlook of our how Final Setup looks like
+This is an outlook of our how Final Setup
 
 ![Capture](Thumbnails/Final_Product2.jpg)
 
@@ -180,11 +180,18 @@ as they can, this is another scoring system that whoever hits the most time scor
 
 ## How to play
 ### Step 1:
-There are two sets of cards, one for player ``1`` and ``2``. Both players will be seated and they will have to pick the unique characters(Lizard: player 1 or Humannoid: player 2) and place it on the RFID reader. This will trigger a respond from our **Christie Pandora box** software system to summon the designated characters of the cards
+There are two sets of cards, one for player **1** and **2**. Both players will be seated and they will have to pick the unique characters(Lizard: player 1 or Humannoid: player 2) and place it on the RFID reader. This will trigger a respond from our **Christie Pandora box** software system to summon the designated characters of the cards
 
 ![Capture](picture of a summon character )
 
 To view the script which is responsible for the summoning of characters, you can go to `RFID1_Code.txt` located under the `System Codes/Event Listeners` folder
 
 ### Step 2:
+All you have to do is watch, as two dice drop and rolls. This is a scoring system whereby 
+when the dice rolls with a larger number compared to the other,that player will get the higher score. 
 
+![Capture](picture of a dice roll number)
+
+However it's does not end there as to determine the winner of that round. There will be a next phase which both players have to press the two big buttons in this case would be green and yellow for player 1 and 2 respectively. The adrenaline part of this is that whoever can press the quickest will add more points to their initial one from the dice roll. Higher points at the end will win that round!
+
+![GIF](spam-button.gif)
