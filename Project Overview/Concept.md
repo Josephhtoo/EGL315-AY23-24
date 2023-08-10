@@ -10,7 +10,7 @@ How we achieve pepperghost is through the light emitted from the TV monitor bein
 
 ## **Asset animations** 
 Below are the different animations for our in game-characters, shoutout to **Farhan**
-and **Guanghui** from Media Post Producation at Ngee Ann Polytechnnic who did the character animation. Click on to the ``thumbnails`` which will direct you to the individual videos on Youtube!
+and **Guanghui** from Media Post Producation at Ngee Ann Polytechnnic who did the character animation. Click on to the `thumbnails` which will direct you to the individual videos on Youtube!
 <h3>Assasin</h3>
 
 [![Watch the video](../Assets/Assasin_Death.jpg)](https://youtu.be/okqqrTbpr7w)
