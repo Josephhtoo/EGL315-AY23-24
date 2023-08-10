@@ -192,6 +192,6 @@ when the dice rolls with a larger number compared to the other,that player will 
 
 ![Capture](picture of a dice roll number)
 
-However it's does not end there as to determine the winner of that round. There will be a next phase which both players have to press the two big buttons in this case would be green and yellow for player 1 and 2 respectively. The adrenaline part of this is that whoever can press the quickest will add more points to their initial one from the dice roll. Higher points at the end will win that round!
+However it's does not end there as to determine the winner of that round. There will be a next phase which both players have to press the two big buttons in this case would be green and yellow for player 1 and 2 respectively. The adrenaline part of this is that whoever can press the quickest will add more points to their initial one from the dice roll. Player with the higher points at the end will win that round!
 
 ![GIF](spam-button.gif)
