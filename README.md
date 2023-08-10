@@ -121,7 +121,7 @@ After configuring the ip addresses and adaptor connection of both your laptop an
 ## Audio Setup (Hardware)
 <h3>Step 1: Connect 3.5mm jack to Audio De-embedder</h3>
 
-![Capture](Thumbnails/audio_out.jpg)
+![Capture](Thumbnails/audio_out.jpg)<br>
 Using the custom speaker cable provided connect the end with the 3.5mm jack to the audio de-embedder.
 
 <h3>Step 2: Connect bear end cable to Speakers</h3>
@@ -165,5 +165,26 @@ These cues will trigger which lights will activate in which Sequence you create 
 
 Here is a [link][MVP_url] to YouTube for you to see how our project looks like
 
-
 [MVP_url]:https://www.youtube.com/watch?v=gwVx0OAnEbk
+
+
+## Final Product
+![Capture](Thumbnails/Final_Product.jpg)
+
+This is an outlook of our how Final Setup looks like
+
+![Capture](Thumbnails/Final_Product2.jpg)
+
+We added 2 more buttons based from the MVP for users to hit reptitively as quickly
+as they can, this is another scoring system that whoever hits the most time score more points than the other
+
+## How to play
+### Step 1:
+There are two sets of cards, one for player ``1`` and ``2``. Both players will be seated and they will have to pick the unique characters(Lizard: player 1 or Humannoid: player 2) and place it on the RFID reader. This will trigger a respond from our **Christie Pandora box** software system to summon the designated characters of the cards
+
+![Capture](picture of a summon character )
+
+To view the script which is responsible for the summoning of characters, you can go to `RFID1_Code.txt` located under the `System Codes/Event Listeners` folder
+
+### Step 2:
+
