@@ -65,9 +65,14 @@ This is how the victory animation of the Elder looks like!
 
 This is how the spawn animation of the Elder looks like!
 
-[![Watch the video](../Assets/ReaverSpawn.jpg)](https://youtu.be/PzJAEauGLQg)
+[![Watch the video](../Assets/ReaverSpawn.jpg)](https://youtu.be/djiyUHzSZE4)
 
 This is how the spawn animation of the Reaver looks like!
+
+[![Watch the video](../Assets/Reaver_Death.jpg)](https://youtu.be/_m9xDpLRIsw)
+
+This is how the victory animation of the Reaver looks like!
+
 
 [![Watch the video](../Assets/ReaverVictory.jpg)](https://youtu.be/_m9xDpLRIsw)
 
