@@ -175,7 +175,7 @@ This is an outlook of our how Final Setup
 
 ![Capture](Thumbnails/Final_Product2.jpg)
 
-We added 2 more buttons based from the MVP for users to hit reptitively as quickly
+We added 2 more buttons, green and yellow based from the MVP for users to hit reptitively as quickly
 as they can, this is another scoring system that whoever hits the most time score more points than the other
 
 ## How to play

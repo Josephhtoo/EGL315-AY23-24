@@ -1,7 +1,7 @@
 
 
 ## Specular Reflection Phenomenon
-![Alt text](Assets/Specular_Reflection.jpg)
+![Capture](../Thumbnails/Specular_Reflection.jpg)
 
 Based on the figure above, the angle of incidence is the angle between the light ray from the source of light and a line perpendicular (the imaginary line is normal) to the denser medium and as such the angle of reflection is symmetrically opposite from the angle of incidence. This was only possible on a smooth and polished surface. [3]
 
