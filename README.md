@@ -194,8 +194,8 @@ Either player can press the red button to start the round. When the round begins
 ### Step 3: Battle Sequence
 After the dice roll, a timer will appear giving them time to prepare. Once the timer runs out, players will begin spamming the button to increase their scores
 
-![Capture](picture of a dice roll number)
+![Capture](Thumbnails/Diceroll.jpg)
 
 However it's does not end there as to determine the winner of that round. There will be a next phase which both players have to press the two big buttons in this case would be green and yellow for player 1 and 2 respectively. The adrenaline part of this is that whoever can press the quickest will add more points to their initial one from the dice roll. Player with the higher points at the end will win that round!
 
-![Capture](picture of 5 second coutdown for spam)
+![Capture](Thumbnails/Countdown.jpg)
