@@ -74,7 +74,7 @@ This is how the spawn animation of the Crusher looks like!
 
 This is how the death animation of the Guard looks like!
 
-[![Watch the video](../Assets/Guard_Victory.jpg)](https://youtu.be/f_yh2qXDQmI)
+[![Watch the video](../Assets/Guard_Victory.jpg)](https://youtu.be/zuuOMTqtFs0)
 
 This is how the victory animation of the Guard looks like!
 
