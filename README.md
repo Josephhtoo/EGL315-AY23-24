@@ -160,17 +160,13 @@ Create 4 sequences for intro, battle, player 1 win and player 2 win. You can do 
 <h3>Step 3: Creating cues</h3>
 These cues will trigger which lights will activate in which Sequence you create the cue in, 
 
-## Demo Video
-
-Here is a [link][MVP_url] to YouTube for you to see how our project looks like.
-
-[MVP_url]:https://www.youtube.com/watch?v=gwVx0OAnEbk
 
 
 ## Final Product
 ![Capture](Thumbnails/Final_Product.jpg)
 
-This is an outlook of our how Final Setup
+This is an outlook of our how Final Setup.<br>
+Click [here](https://youtu.be/4WmhNmc1prY) to watch our project presentaion on YouTube.
 
 ![Capture](Thumbnails/Final_Product2.jpg)
 
@@ -178,8 +174,10 @@ This is an outlook of our how Final Setup
 
 ## How to play
 
+Click [here](https://youtu.be/wx2ngAvR0xs) to watch the game demonstration on YouTube
+
 ### Step 1: Intro Sequence
-Press on the red button to start the instrctional video, which will guide you through on how to play the game
+Press on the red button to start the instructional video, which will guide you through on how to play the game
 
 
 ### Step 2: Summoning Sequence
@@ -189,13 +187,15 @@ Press on the red button to start the instrctional video, which will guide you th
 ![Capture](Thumbnails/Summon.jpg)
 
 ### Step 3: RNG Sequence
-Either player can press the red button to start the round. When the round begins , their characters will approach a each other and a random score from 1 to 20 will be rolled from the dice. 
-
-### Step 3: Battle Sequence
-After the dice roll, a timer will appear giving them time to prepare. Once the timer runs out, players will begin spamming the button to increase their scores
+Either player can press the red button to start the round. When the round begins , their characters will approach each other and a random score from 1 to 20 will be rolled from the dice. 
 
 ![Capture](Thumbnails/Diceroll.jpg)
 
-However it's does not end there as to determine the winner of that round. There will be a next phase which both players have to press the two big buttons in this case would be green and yellow for player 1 and 2 respectively. The adrenaline part of this is that whoever can press the quickest will add more points to their initial one from the dice roll. Player with the higher points at the end will win that round!
+### Step 4: Battle Sequence
+After the dice roll, a timer will appear giving them time to prepare. Once the timer runs out, players will begin spamming the button to increase their scores
 
 ![Capture](Thumbnails/Countdown.jpg)
+
+In this demonstration player took the victory for the first round
+
+![Capture](Thumbnails/Win.jpg)
