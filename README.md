@@ -163,15 +163,16 @@ These cues will trigger which lights will activate in which Sequence you create 
 
 ## Demo Video
 
-Here is a [link][MVP_url] to YouTube for you to see how our project looks like
+Here is a [link][MVP_url] to YouTube for you to see how our project looks like.
 
 [MVP_url]:https://www.youtube.com/watch?v=gwVx0OAnEbk
 
 
 ## Final Product
-This is how our Setup looks like
-
 ![Capture](Thumbnails/Final_Product.jpg)
+
+This is an outlook of our how Final Setup
+
 ![Capture](Thumbnails/Final_Product2.jpg)
 
 We added 2 more buttons, green and yellow based from the MVP for users to hit reptitively as quickly
@@ -186,14 +187,20 @@ Press on the red button to start the instrctional video, which will guide you th
 ### Step 2: Summoning Sequence
 3 cards will be distributed to 2 players each, players will then tap 1 card of choice at the start of each round to summon their characters on the physical landscape.
 
-![Capture](picture of a card placement )<br>
-![Capture](picture of a summon character )
+![Capture](picture of a card placement )
+![Capture](Thumbnails/Summon.jpg)
 
 ### Step 3: RNG Sequence
 Either player can press the red button to start the round. When the round begins , their characters will approach a each other and a random number will be rolled from the dice. 
 
-### Step 4: Battle Sequence
-The dice number will act as their base score, a timer will then begin giving players time to get ready to spam their attack buttons. When the timer runs out players will spam their buttons for 5 seconds, giving them a chance to increase their scores.
+### Step 3:
+All you have to do is watch, as two dice drop and rolls. This is a scoring system whereby 
+when the dice rolls with a larger number compared to the other,that player will get the higher score. 
 
-### Step 5: Repeat Till Winner is Declared 
-Players will repeat the summon, RNG and battle sequence, best out of 3 wins the game!
+![Capture](picture of a dice roll number)
+
+However it's does not end there as to determine the winner of that round. There will be a next phase which both players have to press the two big buttons in this case would be green and yellow for player 1 and 2 respectively. The adrenaline part of this is that whoever can press the quickest will add more points to their initial one from the dice roll. Player with the higher points at the end will win that round!
+
+![Capture](picture of 5 second coutdown for spam)
+
+![GIF](spam-button.gif)
