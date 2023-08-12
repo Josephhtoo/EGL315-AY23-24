@@ -179,7 +179,7 @@ This is an outlook of our how Final Setup
 ## How to play
 
 ### Step 1: Intro Sequence
-Press on the red button to start the instrctional video, which will guide you through how to play the game
+Press on the red button to start the instrctional video, which will guide you through on how to play the game
 
 
 ### Step 2: Summoning Sequence
@@ -189,16 +189,13 @@ Press on the red button to start the instrctional video, which will guide you th
 ![Capture](Thumbnails/Summon.jpg)
 
 ### Step 3: RNG Sequence
-Either player can press the red button to start the round. When the round begins , their characters will approach a each other and a random number will be rolled from the dice. 
+Either player can press the red button to start the round. When the round begins , their characters will approach a each other and a random score from 1 to 20 will be rolled from the dice. 
 
-### Step 3:
-All you have to do is watch, as two dice drop and rolls. This is a scoring system whereby 
-when the dice rolls with a larger number compared to the other,that player will get the higher score. 
+### Step 3: Battle Sequence
+After the dice roll, a timer will appear giving them time to prepare. Once the timer runs out, players will begin spamming the button to increase their scores
 
 ![Capture](picture of a dice roll number)
 
 However it's does not end there as to determine the winner of that round. There will be a next phase which both players have to press the two big buttons in this case would be green and yellow for player 1 and 2 respectively. The adrenaline part of this is that whoever can press the quickest will add more points to their initial one from the dice roll. Player with the higher points at the end will win that round!
 
 ![Capture](picture of 5 second coutdown for spam)
-
-![GIF](spam-button.gif)
