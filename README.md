@@ -136,7 +136,6 @@ Insert the audio file provided in to the timeline at ....Then, under open up the
 ## Lighting Setup (Hardware)
 <h3>Step 1: Connecting grandMA3 console to Network Switch</h3>
 
-![Capture]()<br>
 By doing so, the MA3 console will be able to talk to the laptop and the Chamsys which will also connected to the Nework Switch
 
 
@@ -175,8 +174,7 @@ This is an outlook of our how Final Setup
 
 ![Capture](Thumbnails/Final_Product2.jpg)
 
-We added 2 more buttons, green and yellow based from the MVP for users to hit reptitively as quickly
-as they can, this is another scoring system that whoever hits the most time score more points than the other
+2 more buttons were added, green and yellow for users to hit reptitively as quickly as possible. This is another scoring system that adds to the dice roll score, giveing players an additional chance to beat their opponent.
 
 ## How to play
 
