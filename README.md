@@ -134,19 +134,19 @@ Using the same custom speaker cable connect the bear end part of the cable to th
 Insert the audio file provided in to the timeline at ....Then, under open up the layer the audio file is in, in the audio section  change the value to -96dB for the start of the audio clip, click Store Active(red button at the top of timeline), click your cursor to a later part of the clip and store active the audio at 0dB. This gives the audio a fade in effect.
 
 ## Lighting Setup (Hardware)
-<h3>Step 1: Connecting grandMA3 console to DMX Splitters</h3>
+<h3>Step 1: Connecting grandMA3 console to Network Switch</h3>
 
-![Capture](Thumbnails/ConsoleOut_conn.jpg)<br>
-Using the 5-pin xlr cable connect the male side of the cable into port A of the console, Do the same for port B.
-
-![Capture](Thumbnails/DMXSplitterIn_conn.jpg)<br>
-On the other end of the same cable that you used to connect to the console, connect it to the DMX input port of the DMX splitter connect the other cable that was plugged into port B into another DMX splitter.
+![Capture]()<br>
+By doing so, the MA3 console will be able to talk to the laptop and the Chamsys which will also connected to the Nework Switch
 
 
-<h3>Step 2: Connecting DMX Transmitters to DMX Splitters</h3>
 
-![Capture](Thumbnails/DMXSplitterOut_conn.jpg)<br>
-Connect the DMX Transmitter into the DMX output ports of the DMX splitter, each splitter should be connected to 2 DMX Transmitters
+<h3>Step 2: Connecting Chamsys to Network Switch</h3>
+By doing so, you will have more DMX ports available for your wireless DMX Transmitters.
+
+<h3>Step 3: Connecting wireless DMX Transmitters to Chamsys</h3>
+This allows you to control your lights from your MA3 console
+through the Chamsys
 
 
 ## Lighting Setup (Software)
@@ -161,7 +161,7 @@ Create 4 sequences for intro, battle, player 1 win and player 2 win. You can do 
 <h3>Step 3: Creating cues</h3>
 These cues will trigger which lights will activate in which Sequence you create the cue in, 
 
-## Demo Video (Minimum Viable Product)
+## Demo Video
 
 Here is a [link][MVP_url] to YouTube for you to see how our project looks like
 
@@ -169,10 +169,9 @@ Here is a [link][MVP_url] to YouTube for you to see how our project looks like
 
 
 ## Final Product
+This is how our Setup looks like
+
 ![Capture](Thumbnails/Final_Product.jpg)
-
-This is an outlook of our how Final Setup
-
 ![Capture](Thumbnails/Final_Product2.jpg)
 
 We added 2 more buttons, green and yellow based from the MVP for users to hit reptitively as quickly
@@ -180,27 +179,21 @@ as they can, this is another scoring system that whoever hits the most time scor
 
 ## How to play
 
-### Step 1:
-Press on the red button ot start the instuctional clip which will illustrate on what the 
-user needs to know the and game build up before playing.
+### Step 1: Intro Sequence
+Press on the red button to start the instrctional video, which will guide you through how to play the game
 
 
-### Step 2:
-There are two sets of cards, one for player **1** and **2**. Both players will be seated and they will have to pick the unique characters(Lizard: player 1 or Humannoid: player 2) and **place** it on the **RFID reader**. This will trigger a respond from our **Christie Pandora box** software system to **summon** the designated characters of the cards
+### Step 2: Summoning Sequence
+3 cards will be distributed to 2 players each, players will then tap 1 card of choice at the start of each round to summon their characters on the physical landscape.
 
 ![Capture](picture of a card placement )<br>
 ![Capture](picture of a summon character )
 
-To view the script which is responsible for the summoning of characters, you can go to `RFID1_Code.txt` located under the `System Codes/Event Listeners` folder
+### Step 3: RNG Sequence
+Either player can press the red button to start the round. When the round begins , their characters will approach a each other and a random number will be rolled from the dice. 
 
-### Step 3:
-All you have to do is watch, as two dice drop and rolls. This is a scoring system whereby 
-when the dice rolls with a larger number compared to the other,that player will get the higher score. 
+### Step 4: Battle Sequence
+The dice number will act as their base score, a timer will then begin giving players time to get ready to spam their attack buttons. When the timer runs out players will spam their buttons for 5 seconds, giving them a chance to increase their scores.
 
-![Capture](picture of a dice roll number)
-
-However it's does not end there as to determine the winner of that round. There will be a next phase which both players have to press the two big buttons in this case would be green and yellow for player 1 and 2 respectively. The adrenaline part of this is that whoever can press the quickest will add more points to their initial one from the dice roll. Player with the higher points at the end will win that round!
-
-![Capture](picture of 5 second coutdown for spam)
-
-![GIF](spam-button.gif)
+### Step 5: Repeat Till Winner is Declared 
+Players will repeat the summon, RNG and battle sequence, best out of 3 wins the game!
