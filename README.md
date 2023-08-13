@@ -165,7 +165,7 @@ These cues will trigger which lights will activate in which Sequence you create 
 ## Final Product
 ![Capture](Thumbnails/Final_Product.jpg)
 
-This is an outlook of our how Final Setup.<br>
+This is an outlook of our Final Setup.<br>
 Click [here](https://youtu.be/4WmhNmc1prY) to watch our project presentaion on YouTube.
 
 ![Capture](Thumbnails/Final_Product2.jpg)
@@ -187,7 +187,7 @@ Press on the red button to start the instructional video, which will guide you t
 ![Capture](Thumbnails/Summon.jpg)
 
 ### Step 3: RNG Sequence
-Either player can press the red button to start the round. When the round begins , their characters will approach each other and a random score from 1 to 20 will be rolled from the dice. 
+Either player can press the red button to start the round. When the round begins, their characters will approach each other and a random score from 1 to 20 will be rolled from the dice. 
 
 ![Capture](Thumbnails/Diceroll.jpg)
 
@@ -198,4 +198,4 @@ After the dice roll, a timer will appear giving them time to prepare. Once the t
 
 In this demonstration player took the victory for the first round
 
-![Capture](Thumbnails/Win.jpg)
+![Capture](Thumbnails/Win.jpg) 
