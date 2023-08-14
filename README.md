@@ -182,7 +182,7 @@ Press on the red button to start the instructional video, which will guide you t
 ### Step 2: Summoning Sequence
 3 cards will be distributed to 2 players each, players will then tap 1 card of choice at the start of each round to summon their characters on the physical landscape.
 
-![Capture](picture of a card placement )
+![Capture](Thumbnails/Card_Placement.jpg)
 ![Capture](Thumbnails/Summon.jpg)
 
 ### Step 3: RNG Sequence
