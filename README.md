@@ -161,7 +161,6 @@ Create 4 sequences for intro, battle, player 1 win and player 2 win. You can do 
 These cues will trigger which lights will activate in which Sequence you create the cue in, 
 
 
-
 ## Final Product
 ![Capture](Thumbnails/Final_Product.jpg)
 
